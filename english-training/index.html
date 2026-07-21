@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>瞬英 — 瞬間英作文 & 英語力診断</title>
+  <meta name="description" content="日本語を見て瞬時に英語にする瞬間英作文トレーニングと、文法・語彙・作文・読解の英語力診断テスト。">
+  <meta property="og:title" content="瞬英 — 瞬間英作文 & 英語力診断">
+  <meta property="og:description" content="考える前に口に出す。瞬間英作文と英語力診断で、使える英語を鍛える。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">本文へ移動</a>
+
+  <div class="atmosphere" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grain"></div>
+  </div>
+
+  <header class="topbar">
+    <button type="button" class="brand" id="nav-home" aria-label="ホームへ">
+      <span class="brand-mark" aria-hidden="true">瞬</span>
+      <span class="brand-text">
+        <strong>瞬英</strong>
+        <small>SHUNEI</small>
+      </span>
+    </button>
+    <nav class="topnav" aria-label="メイン">
+      <button type="button" data-route="compose" class="nav-link">瞬間英作文</button>
+      <button type="button" data-route="diagnosis" class="nav-link">英語力診断</button>
+    </nav>
+  </header>
+
+  <main id="app" class="app" tabindex="-1"></main>
+
+  <template id="tpl-home">
+    <section class="view home-view">
+      <div class="hero">
+        <p class="hero-brand reveal" style="--d:0">瞬英 / SHUNEI</p>
+        <h1 class="reveal" style="--d:1">考える前に、<br>英語が出る。</h1>
+        <p class="hero-lead reveal" style="--d:2">日本語を見て、瞬時に英文へ。瞬間英作文と英語力診断で、使える英語の反射神経を鍛えます。</p>
+        <div class="hero-actions reveal" style="--d:3">
+          <button type="button" class="btn primary" data-route="compose">瞬間英作文を始める</button>
+          <button type="button" class="btn ghost" data-route="diagnosis">英語力を診断する</button>
+        </div>
+      </div>
+      <div class="hero-visual reveal" style="--d:4" aria-hidden="true">
+        <div class="prompt-card float">
+          <span class="label">JA → EN</span>
+          <p class="ja">私は彼に会ったことがあります。</p>
+          <p class="en">I have met him.</p>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-compose-setup">
+    <section class="view setup-view">
+      <header class="view-head">
+        <p class="eyebrow">Instant Composition</p>
+        <h1>瞬間英作文</h1>
+        <p class="lead">日本語が表示されたら、できるだけ早く英語にしてみましょう。表記ゆれや短縮形も許容します。</p>
+      </header>
+      <form class="setup-form" id="compose-setup-form">
+        <fieldset>
+          <legend>レベル</legend>
+          <label class="choice"><input type="radio" name="level" value="beginner" checked><span>初級</span><small>be動詞・基本文型</small></label>
+          <label class="choice"><input type="radio" name="level" value="intermediate"><span>中級</span><small>完了形・条件・受動態</small></label>
+          <label class="choice"><input type="radio" name="level" value="advanced"><span>上級</span><small>仮定法・複雑な構文</small></label>
+        </fieldset>
+        <fieldset>
+          <legend>出題数</legend>
+          <label class="choice compact"><input type="radio" name="count" value="5" checked><span>5問</span></label>
+          <label class="choice compact"><input type="radio" name="count" value="10"><span>10問</span></label>
+          <label class="choice compact"><input type="radio" name="count" value="15"><span>15問</span></label>
+        </fieldset>
+        <label class="toggle">
+          <input type="checkbox" name="timer" checked>
+          <span>制限時間（1問あたり60秒）</span>
+        </label>
+        <button type="submit" class="btn primary wide">トレーニング開始</button>
+      </form>
+    </section>
+  </template>
+
+  <template id="tpl-compose-play">
+    <section class="view play-view">
+      <div class="progress-row">
+        <div class="progress-meta">
+          <span id="compose-progress-label">1 / 10</span>
+          <span id="compose-timer" class="timer" hidden>60</span>
+        </div>
+        <div class="progress-track" aria-hidden="true"><i id="compose-progress-bar"></i></div>
+      </div>
+      <div class="prompt-stage">
+        <p class="prompt-label">次の日本語を英語にしてください</p>
+        <p class="prompt-ja" id="compose-ja"></p>
+        <p class="prompt-hint" id="compose-hint" hidden></p>
+      </div>
+      <form class="answer-form" id="compose-answer-form">
+        <label class="sr-only" for="compose-input">英作文</label>
+        <textarea id="compose-input" rows="3" placeholder="Type your English here…" autocomplete="off" spellcheck="false" required></textarea>
+        <div class="form-actions">
+          <button type="button" class="btn ghost" id="compose-hint-btn">ヒント</button>
+          <button type="submit" class="btn primary">答え合わせ</button>
+        </div>
+      </form>
+      <div class="feedback" id="compose-feedback" hidden></div>
+      <div class="form-actions end-actions" id="compose-next-wrap" hidden>
+        <button type="button" class="btn primary" id="compose-next-btn">次の問題へ</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-compose-result">
+    <section class="view result-view">
+      <header class="view-head">
+        <p class="eyebrow">Session Complete</p>
+        <h1>トレーニング結果</h1>
+      </header>
+      <div class="score-hero">
+        <p class="score-number" id="compose-score"></p>
+        <p class="score-caption" id="compose-score-caption"></p>
+      </div>
+      <ul class="review-list" id="compose-review"></ul>
+      <div class="hero-actions">
+        <button type="button" class="btn primary" data-route="compose">もう一度</button>
+        <button type="button" class="btn ghost" data-route="home">ホームへ</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-diagnosis-intro">
+    <section class="view setup-view">
+      <header class="view-head">
+        <p class="eyebrow">Proficiency Check</p>
+        <h1>英語力診断テスト</h1>
+        <p class="lead">文法・語彙・作文・読解の全20問。結果はCEFR目安（A1〜B2）とスキル別の傾向で表示します。</p>
+      </header>
+      <ul class="feature-list">
+        <li>所要目安：約10〜15分</li>
+        <li>選択式 + 英作文の混合</li>
+        <li>結果はこの端末に保存（共有なし）</li>
+      </ul>
+      <button type="button" class="btn primary wide" id="diagnosis-start">診断を開始する</button>
+      <p class="muted last-result" id="diagnosis-last" hidden></p>
+    </section>
+  </template>
+
+  <template id="tpl-diagnosis-play">
+    <section class="view play-view">
+      <div class="progress-row">
+        <div class="progress-meta">
+          <span id="diag-progress-label">1 / 20</span>
+          <span id="diag-skill" class="skill-chip"></span>
+        </div>
+        <div class="progress-track" aria-hidden="true"><i id="diag-progress-bar"></i></div>
+      </div>
+      <div class="prompt-stage">
+        <p class="prompt-ja multi" id="diag-prompt"></p>
+      </div>
+      <div id="diag-answer-area"></div>
+      <div class="feedback" id="diag-feedback" hidden></div>
+      <div class="form-actions end-actions" id="diag-next-wrap" hidden>
+        <button type="button" class="btn primary" id="diag-next-btn">次へ</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-diagnosis-result">
+    <section class="view result-view">
+      <header class="view-head">
+        <p class="eyebrow">Your Level</p>
+        <h1>診断結果</h1>
+      </header>
+      <div class="level-hero">
+        <p class="cefr" id="diag-cefr"></p>
+        <p class="level-title" id="diag-level-title"></p>
+        <p class="lead" id="diag-level-desc"></p>
+      </div>
+      <div class="score-line">
+        <span>総合正答率</span>
+        <strong id="diag-score"></strong>
+      </div>
+      <div class="skill-bars" id="diag-skills"></div>
+      <div class="advice-box" id="diag-advice"></div>
+      <div class="hero-actions">
+        <button type="button" class="btn primary" data-route="compose">瞬間英作文で鍛える</button>
+        <button type="button" class="btn ghost" data-route="diagnosis">再診断する</button>
+      </div>
+    </section>
+  </template>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
