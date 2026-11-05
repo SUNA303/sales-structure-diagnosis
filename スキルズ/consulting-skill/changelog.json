@@ -1,0 +1,1731 @@
+{
+  "skill_name": "consulting-skill",
+  "current_version": "v4.9.1",
+  "status": "v3.0.0(メジャー): エイブラハムの二本柱を§2へ一対昇格。J1(3成長レバー＝売上構造の“ひと切り”)×L0候補-003(受託者姿勢＝顧客の最善を最上位)。砂川さんの『努力依存vs構造設計』『共感型×伴走型』に翻案。定義置換でなく初手の操作フレーム＋それを回すエンジンとして据える。確定L0番号付与は001/002と一括確定回に保留。削除ゼロ。",
+  "history": [
+    {
+      "version": "v4.9.1",
+      "date": "2026-11-05",
+      "type": "patch",
+      "summary": "references/20 §2 市場調査（S1〜S2）の欄から client-market-strategy references/channel-fit-matrix.md（経路の相性表）へ1行でつなぐ。SKILL.md は版表記のみ（行は増やしていない）"
+    },
+    {
+      "version": "v4.9.0",
+      "date": "2026-11-05",
+      "type": "minor",
+      "summary": "references/20_level-scaling.md（規模ステージ S0ゼロイチ〜S5億円の判定・ステージで変わるもの・S0とS4〜S5の手順・見本）を新設。SKILL.md §4(D)・§5・§6・§7・§9・§11 と references/11・15 にステージ判定を組み込み（本体の行は判断表と参照表の2行のみ追加）"
+    },
+    {
+      "version": "v4.8.0",
+      "date": "2026-11-04",
+      "type": "minor",
+      "summary": "references/19_root-cause-roadmap.md（解決の道筋カード：根本原因・解決方法・解決ステップ）を新設。SKILL.md 商談前の見立ての行・参照表、references/16 に追記"
+    },
+    {
+      "version": "v4.7.1",
+      "date": "2026-10-18",
+      "type": "patch",
+      "summary": "candidates.md・references/books/17：旧称「AIチーム構築」を「AI業務OS構築プログラム」に"
+    },
+    {
+      "version": "v4.7.0",
+      "date": "2026-10-18",
+      "type": "minor",
+      "summary": "§1 に当日決断の5万円引き・紹介料・未定事項・保証・トライアル廃止を追加。10_diagnosis-tables (A) と entrance-copy_v1.md を 2026-06 時点の記録と明記（D-003・D-004・J-003）"
+    },
+    {
+      "version": "v4.6.2",
+      "date": "2026-10-17",
+      "type": "patch",
+      "added": [
+        {
+          "item": "references/13 手順①の補足（目標の上限を外し達成者との差分で候補を広げる。本人の目標は置き換えない・煽らない）",
+          "tag": "for-self,for-client,for-skill",
+          "source": {
+            "type": "youtube_transcript",
+            "title": "AI時代の天才になるAIの使い方",
+            "channel": "AI仙人ch",
+            "received": "2026-10-17",
+            "url": "未確認"
+          }
+        }
+      ],
+      "changed": [
+        "版表記 v4.6.1 → v4.6.2"
+      ],
+      "removed": [],
+      "trial": {
+        "status": "trial",
+        "review_date": "2027-01-17",
+        "procedure": "skill-evolver references/trial-promotion.md",
+        "remove": [
+          "references/13 の「①の補足」節",
+          "版表記を v4.6.1 に戻す"
+        ]
+      },
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "content": "目標は下から積まず、達成者との差分で見る",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "content": "無茶な目標を本人に設計させる使い方はクライアントには合わない（内部手順に限定）",
+          "status": "recorded"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "v4.6.1",
+      "date": "2026-10-12",
+      "summary": "18・16：「平日の一日」の質問を言い換え。見立ての言葉を台本に写さず話し言葉に直す一文を追加（conversation-humanity-layer の spoken-check.md）"
+    },
+    {
+      "version": "v4.6.0",
+      "date": "2026-10-10",
+      "type": "minor",
+      "summary": "商談前の見立てに未来設計（未来の並び・逆算・時間・潜在ニーズ・道筋）を追加。CHANGELOG.md の同版の記載に準拠",
+      "added": [
+        "references/18_future-design.md"
+      ],
+      "changed": [
+        "references/16_pre-session-brief.md",
+        "SKILL.md（成果物の型1行・連携1か所・参照一覧1行）"
+      ]
+    },
+    {
+      "version": "v4.4.1",
+      "date": "2026-10-04",
+      "type": "patch",
+      "summary": "CHANGELOG.md の同版の記載に準拠（2026-10-04のスキル整備：名称・営業資料・紹介制度・5ステップの統一ほか）",
+      "added": [],
+      "changed": [
+        "アドバンスの名称を「AIチーム構築プログラム」から、現行の営業資料（71枚版）の「AI業務OS構築プログラム」に統一"
+      ],
+      "removed": []
+    },
+    {
+      "version": "v3.4.0",
+      "date": "2026-09-19",
+      "type": "minor",
+      "summary": "共通ルール「プロジェクト資料との連携」を新設（追記のみ）。出典＝砂川さんの指示 2026-09-19。正本＝skill-evolver references/context-link.md",
+      "added": [
+        "共通ルール「プロジェクト資料との連携」（共通A〜E）を SKILL.md 冒頭に新設。本スキルが特に見る資料＝クライアントの現状（数字・導線・商品・発信）・ヒアリング／2ステップアンケートの記録・過去セッションの記録と決めたこと・§1 事業情報マスター（プロジェクトの 00_business-master.md があればそちらが優先）",
+        "ヘッダー注記に v3.4.0 の1行",
+        "[for-skill] §1 事業情報マスターに【支払条件】【対象】【発信媒体】【営業導線】【セールス手法】【正本の順序】を追記\n  (出典: 砂川さんの確定事項＝分割条件（与信不要・月数上限なし・最低月1万円・紹介料充当可）・対象・導線の指示／salesline 運用設定 2026-09-15「24回か48回」)"
+      ],
+      "changed": [
+        "見出し・frontmatter の版表記 v3.3.0 → v3.4.0（トークンのみ）"
+      ],
+      "removed": []
+    },
+    {
+      "version": "v3.3.0",
+      "date": "2026-09-14",
+      "type": "minor",
+      "summary": "§9 他スキルとの連携に behavior-barrier-design（外部の補助レンズ・必要な場合のみ）を1項目追加。診断・解決策・実行計画のロジックは無変更。出典＝『消費者の欲望を刺激する 現代マーケティング17の技法』（ナンシー・ハーハット）＝ behavior-barrier-design v1.0.0。",
+      "added": [
+        "§9 behavior-barrier-design 連携項目（呼ぶ条件・渡す最小入力・戻り値の使い方・優先順位）",
+        "ヘッダー注記 v3.3.0 の1行"
+      ],
+      "changed": [
+        "見出しの版表記 v3.2.1 → v3.3.0（トークンのみ）"
+      ],
+      "removed": []
+    },
+    {
+      "version": "v3.2.1",
+      "date": "2026-09-01",
+      "type": "patch",
+      "summary": "顧客の旅③.5/④にwebinar-sales-design・mail-relation-osへの委譲先を追記。未作成参照(borrowed-attention)を明示。",
+      "added": [
+        "委譲先の明記"
+      ],
+      "changed": [
+        "未作成参照の注記"
+      ],
+      "removed": []
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-08-28",
+      "type": "minor",
+      "added": [
+        {
+          "item": "references/13 売上逆算モデル×ストック・フローKPI",
+          "tag": "for-self,for-client,for-skill",
+          "source": {
+            "type": "material",
+            "title": "100M Coaching Business OS（Claude Skill生成プロンプト）",
+            "file": "1億円稼く_コーチンク__ヒ_シ_ネス_knowledge.md",
+            "provenance": "提供者・入手経路 未確認（★要確認）",
+            "received": "2026-08-28"
+          }
+        },
+        {
+          "item": "references/14 クライアントラダー＝商品階層（L0-001注記つき）",
+          "tag": "for-client,for-skill",
+          "source": {
+            "type": "material",
+            "title": "100M Coaching Business OS（Claude Skill生成プロンプト）",
+            "file": "1億円稼く_コーチンク__ヒ_シ_ネス_knowledge.md",
+            "provenance": "提供者・入手経路 未確認（★要確認）",
+            "received": "2026-08-28"
+          }
+        },
+        {
+          "item": "SKILL.md §6・§13 導線4行",
+          "tag": "for-skill",
+          "source": {
+            "type": "material",
+            "title": "100M Coaching Business OS（Claude Skill生成プロンプト）",
+            "file": "1億円稼く_コーチンク__ヒ_シ_ネス_knowledge.md",
+            "provenance": "提供者・入手経路 未確認（★要確認）",
+            "received": "2026-08-28"
+          }
+        }
+      ],
+      "changed": [
+        "版番号を v3.2.0 に更新"
+      ],
+      "removed": [],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "content": "信頼残高",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "安心して断れる設計",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "撤退＝失敗ではなく検証完了",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "L0",
+          "content": "L0候補-002補強：素材の禁止事項群（恐怖訴求全面禁止は場面判定①と衝突・場面条項込みで要検討）",
+          "status": "pending_confirmation"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-08-26",
+      "type": "minor",
+      "added": [
+        {
+          "item": "§4(B) 顧客の旅に「③.3 アテンションの所在（誰が既に見込み客を集めているか）」を新設。③発信と③.5橋渡しの間に置き、自力発信の前に借りられる導線を検討させる",
+          "tag": "for-client,for-skill",
+          "source": {
+            "type": "paid_material",
+            "title": "レスポンス・ラボ「AG1のインフルエンサーマーケティング分析回」",
+            "provider": "ダイレクト出版",
+            "access": "有料会員コンテンツ・公開URLなし",
+            "viewed": "2026-08-22",
+            "note": "有料教材につき逐語転記なし。原理・判断軸のみ抽出し砂川さんの事業へ翻案"
+          }
+        },
+        {
+          "item": "§9 他スキル連携に ad-ops-skill references/borrowed-attention.md への導線を追加",
+          "tag": "for-skill",
+          "source": {
+            "type": "paid_material",
+            "title": "レスポンス・ラボ「AG1のインフルエンサーマーケティング分析回」",
+            "provider": "ダイレクト出版",
+            "access": "有料会員コンテンツ・公開URLなし",
+            "viewed": "2026-08-22",
+            "note": "有料教材につき逐語転記なし。原理・判断軸のみ抽出し砂川さんの事業へ翻案"
+          }
+        }
+      ],
+      "changed": [
+        {
+          "item": "§4(B) の旅の図に ③.3 を挿入（既存の①②③③.5④★⑥⑦の記述は不変）"
+        },
+        {
+          "item": "版番号 3.0.0 → 3.1.0"
+        }
+      ],
+      "removed": [],
+      "overlap_contradiction_check": "§4(B)③.5『橋渡し＝無料プレゼント設計』は“来た人をどう繋ぐか”、新設③.3は“そもそもどこから来るか”で対象が別＝重複なし。§6早見表（references/10）は正本側で層0③の表との重複最終確認が必要",
+      "crystallizing_candidates": [
+        {
+          "type": "中核概念",
+          "content": "アテンションの所在を診断の起点に置く",
+          "status": "pending_confirmation"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "紹介・パートナー経由の設計はL0-001（1階層・招待制まで）を継承。ステマ規制のPR表記はad-ops側ゲートで担保"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-07-23",
+      "type": "major",
+      "added": [
+        {
+          "item": "SKILL.md §2 に新サブセクション「売上構造の“ひと切り”＝3レバー × 受託者姿勢」を新設。J1(3成長レバー=顧客数×平均取引額×購入頻度)とL0候補-003(顧客の最善を最上位＝受託者姿勢)を、エイブラハムの二本柱(3成長レバー×卓越の戦略)として一対で§2哲学へ昇格。砂川さんの『努力依存vs構造設計』『共感型×伴走型(ハイブリッド・スタンス)』に翻案(創造的模倣)。",
+          "tag": "for-skill,for-self,for-client",
+          "source": {
+            "type": "book",
+            "title": "天才コンサルタントの思考法",
+            "author": "ジェイ・エイブラハム",
+            "chapters": "第5章(3成長レバー)・第4章(卓越の戦略)"
+          }
+        }
+      ],
+      "changed": [
+        {
+          "item": "版番号 v2.1.0→v3.0.0(メジャー：中枢方法論=§2の拡張)。candidates.md J1・L0候補-003 を『提示のみ』→『採用(2026-07-23 砂川さん承認)』に更新。frameworks.json version/note/layer_cross_abraham.crystallization_note/L0候補-003 status を同期。",
+          "tag": "for-skill"
+        }
+      ],
+      "removed": [],
+      "overlap_contradiction_check": {
+        "against": "既存§2(中枢哲学・ハイブリッド・スタンス・貫通テーマ・究極原則5)＋references/10エイブラハム表",
+        "result": "reinforces_existing",
+        "note": "新サブセクションは貫通テーマ『努力依存vs構造設計』の操作フレームかつハイブリッド・スタンスと同骨格。既存の哲学・原則・早見表・references構造は削除ゼロ。3レバーは“売上構造の定義そのもの”の置換でなく初手の操作フレームとして据え、砂川さんの広い『売上構造』概念を保持。矛盾なし・補強。"
+      },
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "id": "J1",
+          "content": "3成長レバー＝売上構造の“ひと切り”",
+          "status": "adopted_v3.0.0",
+          "note": "§2へ操作フレームとして昇格。定義置換ではない"
+        },
+        {
+          "type": "L0",
+          "id": "L0候補-003",
+          "content": "顧客の最善を最上位(受託者姿勢)",
+          "status": "adopted_to_philosophy_v3.0.0",
+          "note": "§2哲学に昇格。確定L0番号付与は001/002と一括確定回で保留"
+        },
+        {
+          "type": "pending",
+          "content": "J2〜J5(9エンジン/潜在資産/創造的模倣/顧客教育)は提示のみ継続",
+          "status": "pending_confirmation"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "受託者姿勢＝顧客の最善を最上位は L0-001(マルチ商法NG)と同方向で補強。二者構造・操作禁止を強化。抵触なし。"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-07-23",
+      "type": "minor",
+      "added": [
+        {
+          "item": "references/books/17_book19_marketing-genius_extract.md（新規）：ジェイ・エイブラハム『天才コンサルタントの思考法——170の事例から学ぶ 戦略的マーケティング』抽出。既存14冊の“源流”にあたる普遍的マーケティングOS。本書で初めて明示的に入る上流フレーム＝3成長レバー(顧客数×平均取引額×購入頻度)/9エンジン事業診断/潜在資産の棚卸し/創造的模倣(他業界の原理翻案)/顧客教育=認識価値/卓越の戦略=顧客の最善を最上位。冒頭に統合マッピング（既存14冊との重複=収束／新規6フレーム／6レイヤーへの割付／L0／トーン翻訳規律）を付し、本文は原文のまま収録。",
+          "tag": "for-skill,for-self,for-client",
+          "source": {
+            "type": "book",
+            "title": "天才コンサルタントの思考法——170の事例から学ぶ 戦略的マーケティング（原題 How To Think Like A Marketing Genius）",
+            "author": "ジェイ・エイブラハム",
+            "translator": "久木みほ"
+          }
+        },
+        {
+          "item": "references/10_diagnosis-tables.md に層横断表『エイブラハムの上流フレーム』を新設（8行＋収束記録＋L0/トーン注意＋結晶化候補注記）。",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "天才コンサルタントの思考法",
+            "author": "ジェイ・エイブラハム"
+          }
+        },
+        {
+          "item": "frameworks.json に diagnosis_lookup.layer_cross_abraham を追加（references/10と同期）。version 1.4.0→2.1.0。l0_constitution.candidates に L0候補-003（顧客の最善を最上位）を追記。",
+          "tag": "for-skill",
+          "source": {
+            "type": "internal",
+            "note": "references/10と同期"
+          }
+        },
+        {
+          "item": "candidates.md J節（中核概念候補J1〜J5／L0候補-003／違和感／収束記録）を追加（提示のみ）。SKILL.md §13同梱にbooks/17追記・版表記v2.0.0→v2.1.0。",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "天才コンサルタントの思考法",
+            "author": "ジェイ・エイブラハム"
+          }
+        }
+      ],
+      "changed": [],
+      "removed": [],
+      "overlap_contradiction_check": {
+        "against": "既存14冊（特に LTV最大化/$100M Offers/ポジショニング/コピー/マッチング(B)/ローンチ/顧客の旅①〜⑦）＋同著者ブレイクスルー(10_book12)",
+        "result": "no_conflict_source_of_others",
+        "note": "本書は既存14冊の源流。重複（LTV/USP/オファー/機能→便益/信頼/段階接触/質問/テスト/プロセス）は新規行にせず収束記録。真に新規=6上流フレームのみを層横断表に追加。同著者ブレイクスルー(10_book12)は層0最上流の“ワン・コンセプト”、本書は事業全体の成長OSで相互補完。矛盾なし。"
+      },
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "id": "J1",
+          "content": "3成長レバー(顧客数×平均取引額×購入頻度)＝“売上構造”の分解式",
+          "status": "pending_confirmation",
+          "note": "肩書『売上構造クリエイター®』の“売上構造”そのもの。§2昇格はメジャー級＝要承認"
+        },
+        {
+          "type": "core_concept",
+          "id": "J2",
+          "content": "9エンジン事業診断(全社の伸びしろを広告だけに限定しない)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "J3",
+          "content": "潜在資産の棚卸し(新規投資の前に既存資産)＝努力依存vs構造設計に重なる",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "J4",
+          "content": "創造的模倣(他業界の原理を翻案)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "J5",
+          "content": "顧客教育=認識価値(発信の目的を教育に)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "L0",
+          "id": "L0候補-003",
+          "content": "顧客の最善を最上位に(受託者姿勢)＝共感型・伴走型の憲法化候補",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "content": "34戦略の物量・網羅志向／執筆年代の媒体例／米国大企業事例＝核は採用しトーン・規模は翻訳(最上流の一手を1つ／SNS個別相談へ／個人高単価少人数へ)",
+          "status": "recorded"
+        },
+        {
+          "type": "convergence",
+          "content": "本書のLTV/USP/オファー/信頼/段階接触/テスト/プロセスは既存14冊と独立一致＝源流の確認",
+          "status": "recorded"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "全編 自社↔顧客の二者構造。紹介(referral)は1階層でダウンライン階層化でない(L0-001対象外)。むしろ卓越の戦略=顧客最善／信頼を操作に使わない／偽の希少性・解約妨害を避ける は L0候補-001/002 を強力に補強しL0候補-003を生む。"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-03",
+      "type": "major",
+      "note": "構造分割（原文移設のみ・削除ゼロ）＋®表記統一＋場面判定ルール＋参照所在の実体化。砂川さん承認済み",
+      "l0_check": "passed"
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-06-21",
+      "type": "minor",
+      "note": "Premium Match統合（履歴欠番を2026-07-03に補完）。詳細はCHANGELOG.md v1.5.0エントリ",
+      "l0_check": "passed"
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-06-14",
+      "type": "minor",
+      "added": [
+        {
+          "item": "references/books/16_book18_sales-copy_extract.md（訴求vs表現・訴求が最上流/3つのターゲットタイプ別の訴求・キャッチ撃ち分け/ということはつまり法でベネフィット導出/売れるアイデアは拾う/キャッチ→リード→ボディの3段役割/一発合格を目指さず広告テストで磨く/読みやすさの引き算KISS・白地に黒文字/W型ストーリーテリング の実務変換。本文の長文引用・保存はせず)",
+          "tag": "for-skill,for-client,for-self",
+          "source": {
+            "type": "book",
+            "title": "セールスコピー大全——見て・読んで・買ってもらえるコトバの作り方",
+            "author": "大橋一慶",
+            "publisher": "ぱる出版",
+            "pages": "第1〜18章（章単位で参照）"
+          }
+        },
+        {
+          "item": "§6 層0③ 早見表に新規4行（訴求≠表現で訴求最上流／3ターゲットタイプで撃ち分け／ということはつまり法／読みやすさの引き算）＋トーン注記",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "セールスコピー大全",
+            "author": "大橋一慶",
+            "publisher": "ぱる出版"
+          }
+        },
+        {
+          "item": "frameworks.json diagnosis_lookup.step3_copy を{note,rows}構造に拡張し2系統source化＋新規4行同期。L0候補-002 support に大橋本を追記",
+          "tag": "for-skill",
+          "source": {
+            "type": "internal",
+            "note": "§6同期"
+          }
+        },
+        {
+          "item": "candidates.md I節（中核概念候補I1〜I4／L0候補-002補強／違和感／収束メモ）",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "セールスコピー大全",
+            "author": "大橋一慶",
+            "publisher": "ぱる出版"
+          }
+        }
+      ],
+      "changed": [
+        {
+          "item": "§6 層0③ 既存2行を精緻化（追記のみ）：行A(スリッパリースライド)に大橋本キャッチ・リード・ボディ3段を併記／行E(経験の組み替え)に大橋本『拾うアイデア』を併記",
+          "reason": "Adweekとの重複は新規追加でなく既存行の精緻化で対応（退化防止ルール準拠・削除なし）"
+        },
+        {
+          "item": "層0③テーブル出典見出しをAdweek単独→Adweek／セールスコピー大全の2系統に更新",
+          "reason": "出典の二系統化を明示"
+        }
+      ],
+      "removed": [],
+      "overlap_contradiction_check": {
+        "against": "references/books/11_book13_copywriting_extract.md（Adweek/シュガーマン）",
+        "duplicates_refined_not_added": [
+          "売れるアイデアは拾う＝行E(経験の組み替え)",
+          "キャッチ・リード・ボディ3段＝行A(スリッパリースライド)",
+          "ザイガニック＝好奇心の種・続きを読ませる",
+          "心の声に置きかえる＝行B(resonate)"
+        ],
+        "new_rows_jp_sns_differential": [
+          "訴求(誰に何を)≠表現(どう言うか)・訴求が最上流",
+          "3つのターゲットタイプで撃ち分け",
+          "ということはつまり法(ベネフィット導出ドリル)",
+          "読みやすさの引き算(第18章・Adweek未カバー)"
+        ],
+        "contradictions": "なし。『訴求が最上流』は砂川本体『最上流の詰まりから』＋西口『商品が主・発信は従』を補強。『いきなりペルソナを作るな』は西口『実在しないペルソナ無効』と一致。心理トリガーはAdweek違和感-017と同じ核採用・トーン非採用で解消"
+      },
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "id": "I1",
+          "content": "訴求(誰に何を)≠表現(どう言うか)・訴求を先に固める",
+          "status": "pending_confirmation",
+          "note": "最有力。本体『最上流の詰まりから』のコピー版"
+        },
+        {
+          "type": "core_concept",
+          "id": "I2",
+          "content": "3つのターゲットタイプで発信を撃ち分ける",
+          "status": "pending_confirmation",
+          "note": "最有力。西口5セグ/9セグと直交一致"
+        },
+        {
+          "type": "core_concept",
+          "id": "I3",
+          "content": "ということはつまり法（ベネフィット導出ドリル）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "I4",
+          "content": "売れるアイデアは拾うもの",
+          "status": "pending_confirmation",
+          "note": "A1・行Eと束ね候補"
+        },
+        {
+          "type": "L0",
+          "content": "L0候補-002補強：心理トリガーは核のみ採用・煽りトーン非採用",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "content": "「●●するな」挑発・嘘の緊急性・ザイガニックで焦らす運用（Adweek違和感-018と同family）",
+          "status": "recorded"
+        },
+        {
+          "type": "convergence",
+          "content": "「いきなりペルソナを作るな」＝西口「実在しないペルソナ無効」と一致",
+          "status": "recorded"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-06-14",
+      "type": "minor",
+      "added": [
+        {
+          "item": "references/books/15_book17_pricing_extract.md（売上重視のワナ/良い売上・悪い売上アップ/1個の儲け・MPVF/DOG・CAT/値下げ成功2条件＋3つの壁/人間型は値下げ不可能/コスト→バリュー・プライシング/3つの価格ゾーン/メンタルブロック2つ/4つのプラ＝まぜ・ここ・くら・やわ の実務変換。本文の長文引用・保存はせず)",
+          "tag": "for-skill,for-client,for-self",
+          "source": {
+            "type": "book",
+            "title": "良い値決め 悪い値決め——きちんと儲けるためのプライシング戦略",
+            "author": "田中靖浩",
+            "publisher": "日本経済新聞出版社"
+          }
+        },
+        {
+          "item": "SKILL.md §6 に層2早見表『オファー設計の「価格」側（良い値決め 悪い値決め）』新設（10行）。既存$100M Offers表の直後に併置",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "良い値決め 悪い値決め",
+            "author": "田中靖浩",
+            "publisher": "日本経済新聞出版社"
+          }
+        },
+        {
+          "item": "SKILL.md §13 参照ファイル一覧に追記・フッターに v1.3.0 位置づけ追記・バージョン表記 v1.2.0→v1.3.0",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "良い値決め 悪い値決め",
+            "author": "田中靖浩",
+            "publisher": "日本経済新聞出版社"
+          }
+        },
+        {
+          "item": "frameworks.json に diagnosis_lookup.layer2_pricing を追加（§6と同期）・version 1.3.0",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "良い値決め 悪い値決め",
+            "author": "田中靖浩",
+            "publisher": "日本経済新聞出版社"
+          }
+        }
+      ],
+      "changed": [],
+      "removed": [],
+      "integration_check": {
+        "against": "$100M Offers（step5_offer＝層2）",
+        "result": "no_conflict_mutually_reinforcing",
+        "note": "役割分担：$100M＝価値の積み方（価値方程式/特典/保証/ネーミング）、良い値決め＝価格の決め方（コスト→バリュー）と値下げが利益を壊す数字メカニズム（1個の儲け・MPVF・3つの壁）。重複部は同方向。良い値決めが足すのは値下げ不可能の論拠と値上げできない原因の診断。"
+      },
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "content": "良い値決め/悪い値決め＝価格の哲学を持って決めるか流されるか(H1)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "『1個の儲け×数量/MPVF』の数字レンズ(H2)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "人間そのものが商品の事業は値下げ不可能=3つの壁(H3)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "バリュー・プライシング＝値決めの主人公を顧客に置く(H4)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "『悩みを引き取る→共感→問題解決』の3ステップ＝共感型・伴走型と三重一致(H5・最有力)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "アナザー・アンカリング/アンカリング・インポッシブル＝層2から層0①立ち位置への橋(H6)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "l0_candidate",
+          "content": "L0候補-002補強：価格の心理は操作に使わない(メンタル・デコイ/でっち上げ定価/不安をあおる は非採用)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "content": "本書の恐怖寄りトーン/『設備型は値下げOK』の許容は人間型クライアントに非適用",
+          "status": "pending_confirmation"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-06-13",
+      "type": "minor",
+      "added": [
+        {
+          "item": "references/books/14_book16_customer-origin_extract.md（N1分析/独自性×便益/5セグ/9セグ/投資判断の実務変換）",
+          "tag": "for-skill,for-client,for-self",
+          "source": {
+            "type": "book",
+            "title": "たった一人の分析から事業は成長する 実践 顧客起点マーケティング",
+            "author": "西口一希",
+            "publisher": "MarkeZine BOOKS（翔泳社）"
+          }
+        },
+        {
+          "item": "SKILL.md §6 に層4早見表『顧客起点の診断（N1分析・5セグ・9セグ）』新設（12行）",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "実践 顧客起点マーケティング",
+            "author": "西口一希"
+          }
+        },
+        {
+          "item": "SKILL.md §4B 診断の地図の使い方に項目7『顧客の在庫（5セグ）を見る』を追加",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "実践 顧客起点マーケティング",
+            "author": "西口一希"
+          }
+        },
+        {
+          "item": "frameworks.json に diagnosis_lookup.layer4_customer_origin を追加（同期）",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "実践 顧客起点マーケティング",
+            "author": "西口一希"
+          }
+        }
+      ],
+      "changed": [],
+      "removed": [],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "content": "N1から始める（実在する一人の深掘りが打ち手の唯一の源泉）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "売上の第3の型『環境依存』（貫通テーマの三型化案）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "商品が主、発信は従",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "指名で選ばれる度合いを発信の評価軸にする",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "content": "マス前提の検証手段は個人ビジネス規模に変換して使う",
+          "status": "recorded"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-06-07",
+      "type": "minor",
+      "added": [
+        {
+          "item": "references/books/13_book15_free_extract.md（FREE抽出）",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "フリー〈無料〉からお金を生みだす新戦略",
+            "author": "クリス・アンダーソン",
+            "publisher": "NHK出版"
+          }
+        },
+        {
+          "item": "§4(B)マップに ③.5 橋渡し（リード獲得→アポ獲得）段を新設",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "FREE",
+            "author": "クリス・アンダーソン"
+          }
+        },
+        {
+          "item": "§6早見表に 層0｜③.5 橋渡し（無料プレゼント設計）テーブルを新設（9行・書籍＋現場知見）",
+          "tag": "for-skill",
+          "source": {
+            "type": "mixed",
+            "title": "FREE＋現場知見",
+            "date": "2026-06-08"
+          }
+        }
+      ],
+      "changed": [],
+      "removed": [],
+      "crystallizing_candidates": [
+        {
+          "type": "L0",
+          "content": "無料の引力を操作/口実に使わない・入口と出口を一致（L0候補-002拡張）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "橋渡しの段／設計3点(呼び水・段差・通過率)／無料は根本原因のミラー",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "content": "大量配布方向は高単価・少人数・伴走と相性が悪い",
+          "status": "pending_confirmation"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-05-23",
+      "type": "patch",
+      "added": [
+        {
+          "item": "§6早見表 ②物語の軸を4→7行に拡張",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "PR戦略/コピー"
+          }
+        },
+        {
+          "item": "§6早見表 ④期待を高める3段を4→7行に拡張",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "ザ・ローンチ/コピー"
+          }
+        },
+        {
+          "item": "frameworks.json step2_story/step4_launch を同期(各8行)",
+          "tag": "for-skill",
+          "source": {
+            "type": "synthesis",
+            "title": "SKILL.md §6と同期"
+          }
+        }
+      ],
+      "changed": [],
+      "removed": [],
+      "crystallizing_candidates": [],
+      "l0_check": "passed",
+      "l0_note": "JVローンチ行に一度きりの提携/ダウンライン不可のL0注記。受注期間は実態の範囲でと明記",
+      "why": "顧客の旅の②④だけ診断カバレッジが手薄だったため全7ステップを均等化。クライアント対応でも安定して使えるように"
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-05-23",
+      "type": "major",
+      "milestone": "本体SKILL.md初版立ち上げ",
+      "added": [
+        {
+          "item": "本体SKILL.md（哲学/思考OS/6レイヤー×顧客の旅の診断地図/5モード/層別早見表/各モード進行ステップ/L0/連携/商品ナビ）",
+          "tag": "for-skill",
+          "source": {
+            "type": "synthesis",
+            "title": "14冊の抽出をconsulting方法論に組み立て"
+          }
+        },
+        {
+          "item": "candidates.md（中核概念候補/L0候補/違和感記録/for-self/for-client を集約・提示のみ）",
+          "tag": "for-skill",
+          "source": {
+            "type": "synthesis",
+            "title": "references/books 14冊"
+          }
+        },
+        {
+          "item": "frameworks.json（6レイヤー/顧客の旅/診断→一手の早見表/モード/連携/L0の機械可読版）",
+          "tag": "for-skill",
+          "source": {
+            "type": "synthesis",
+            "title": "SKILL.md §3-6の機械可読版"
+          }
+        },
+        {
+          "item": "references/books に14冊の抽出mdを格納（uploadsから複製）",
+          "tag": "for-skill",
+          "source": {
+            "type": "books",
+            "title": "04思考エンジン/05ローンチ/06PR/07ポジショニング/08LTV/09Offers/10ブレイクスルー/11コピー前後半/12ブランド論"
+          }
+        }
+      ],
+      "changed": [
+        {
+          "item": "層モデルの軸を、指示書5層案でなく抽出が一貫して使う6層（層−1思考OS含む）＋顧客の旅7ステップに揃えた",
+          "reason": "14冊の抽出が一貫してこの構造を使用。砂川さんへの確認事項として記録"
+        }
+      ],
+      "removed": [],
+      "crystallizing_candidates": [
+        {
+          "type": "中核概念",
+          "content": "商品でなくコンセプトを売る(A1)",
+          "status": "pending_confirmation",
+          "note": "複数書籍で重複=最有力"
+        },
+        {
+          "type": "中核概念",
+          "content": "感情で買い論理で正当化(A2)=共感型の支柱",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "中核概念",
+          "content": "競合をイレレバントにする(A3)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "中核概念",
+          "content": "よい仮説の2条件(A4)を砂川さんの言葉に命名し直すか",
+          "status": "pending_confirmation",
+          "note": "本体§2に暫定実装"
+        },
+        {
+          "type": "L0",
+          "content": "発信・約束・立ち位置は実態のある事実の範囲でのみ(L0候補-001)",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "L0",
+          "content": "誠実な訴求のみ・煽り型NG(L0候補-002)",
+          "status": "pending_confirmation"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "14冊全て抵触なし。グレーはローンチのJVローンチのみ＝一度きりの提携の範囲に留める。書籍由来の煽り系トリガーは共感型・伴走型を守るため非採用",
+      "confirmation_needed": [
+        "層モデルの軸(6層+顧客の旅)でよいか",
+        "モード構成(diagnose/design/review/roleplay/onboarding)でよいか",
+        "concepyとの線引き(consulting=入口診断→concepy=作り込み)でよいか",
+        "最有力候補A1/A2/A3の本体昇格",
+        "L0候補-001/002の確定・文言"
+      ]
+    },
+    {
+      "version": "0.11.0",
+      "date": "2026-05-23",
+      "type": "minor",
+      "added": [
+        {
+          "item": "The Adweek Copywriting Handbook 後半（第20章〜Appendix C）追補抽出：7ステップ・公理15完全版・心理トリガー31完全版・実例広告13本・媒体別ライティング・Epilogue",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "The Adweek Copywriting Handbook",
+            "author": "Joseph Sugarman",
+            "publisher": "Adweek Books / John Wiley & Sons, 2007",
+            "pages": "193-326 (Ch.20-36 + Epilogue + Appendix A-C)",
+            "note": "続巻分割PDF \"_2\"。前半 \"_1\" の宿題（7ステップ・公理完全リスト）を全回収。",
+            "file": "references/books/11_book13_copywriting_extract_part2.md"
+          }
+        }
+      ],
+      "changed": [
+        {
+          "item": "前半ファイル 11_book13_copywriting_extract.md 末尾の『次アクション候補』に『2026-05-23 回収済み』ステータス注記を追記（概念本体は削除せず）",
+          "tag": "for-skill"
+        }
+      ],
+      "removed": [],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "content": "治療として接続する（公理15）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "コアメッセージは一つ（第36章）／前半『一対一の語り』と束ねる",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "商品でなくコンセプトを売る（公理9で正式番号化を確認・三重重複＝最有力）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "感情で買い、論理で正当化（感情原則3で確定）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "for-self",
+          "content": "7ステップ執筆フロー／Fog Index的な平易さチェック",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "for-client",
+          "content": "反論は先に提起してから解消（DC-10反面教師）／7チェックで発信点検／まず全部出す",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "violation_sense",
+          "content": "心理トリガー 恐怖(21)/緊急性(20)/強欲(7)/罪悪感(28) が完全版確定で4つ特定＝砂川スタイルと温度差",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "violation_sense",
+          "content": "『買うな』挑発ティーザー／侮辱しても売れた（第31章）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "L0",
+          "content": "L0候補-002（誠実な訴求のみ・煽り型NG）：31トリガー完全版で非採用候補4つを具体特定＝輪郭を鋭くする傍証",
+          "status": "pending_confirmation"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "0.10.0",
+      "date": "2026-05-23",
+      "type": "minor",
+      "added": [
+        {
+          "item": "『ブレイクスルー コンセプトブック』前回未読範囲＝第3〜5章＋結論を追補抽出（v0.9.0の宿題を完了。全5章＋結論を網羅）",
+          "tag": "for-skill",
+          "file": "references/books/10_book12_breakthrough-concept_extract.md（第11〜14部として統合）",
+          "source": {
+            "type": "book",
+            "title": "ブレイクスルー コンセプトブック（業界トップの地位を築く5つのプロセス）",
+            "author": "ジェイ・エイブラハム",
+            "format": "原典スキャンPDF（日本語訳）",
+            "read_range": "第3章 p.171〜251／第4章 p.255〜311／第5章 p.313〜343／結論 p.345〜349 相当",
+            "read_rate": "≒98%（v0.9.0の≒80%から、全5章＋結論を網羅）"
+          },
+          "key_frameworks": [
+            "戦略的実行フレームワーク5本柱（成果活動の特定→リソース・バンパイア排除→仕組み構築→精度ある拡大→測定・適応）",
+            "80:20の法則（集中フィルター）",
+            "中間目標とロードマップ（成果物・指標・時間軸）",
+            "経営リソースの一致（人材・時間・予算）",
+            "仕組みと自動化（イケア/ドミノピザ）",
+            "勢い・アーリーサクセス・フィードバック・回復力",
+            "実行の設計図5ステップ（目標→中間目標→リソース→仕組み→改善）",
+            "影響力の3つの柱（共鳴・つながり・行動）",
+            "★影響力の基盤＝信頼・誠実・感情的つながり",
+            "型破りなチャネル／影響力戦略ワークシート7項目",
+            "統一された設計図（コンセプト化→検証→実行→影響力）",
+            "★ワン・コンセプト発見の3円ベン図（得意×市場が求める×成長余地）",
+            "90日行動計画／コンセプトのパイプライン（掛け算効果）／フィードバック・ループ"
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "item": "抽出ファイル第8部（接続マップ）に第3〜5章の接続を追記。第3章実行=動かし方を束ねる／第4章影響力=共感型を理論補強／第5章3円ベン図=肩書・商品・コースの点検／パイプライン=3コース段階拡大と同型。既存構造は保持・退化防止"
+        },
+        {
+          "item": "抽出ファイル第9部（L0チェック）に第3〜5章のL0所見を追記。第4章影響力の基盤はL0-001と強く同方向。違和感-015/016を新規記録"
+        },
+        {
+          "item": "抽出ファイル第10部を『未読』→『補完状況（v0.10.0で追補完了）』に更新、実読率≒98%へ"
+        },
+        {
+          "item": "candidates.md に中核概念候補-019〜024、for-client候補2件、違和感-015/016、L0影響を追加",
+          "note": "本体未添付のため candidates_patch_v0.10.0.md として別出し（砂川さんが既存candidates.mdへマージ）"
+        }
+      ],
+      "removed": [],
+      "carryover_items_processed": [
+        "L0候補-001（事実性）：第3章・第5章の検証/データ重視は弱い間接傍証を補強。強い独立補強にはならず、採否確認は継続",
+        "L0候補-002（誠実な希少性のみ・煽り型NG）：第4章『影響力＝操作の対極・一体感』が同方向の強めの傍証となり輪郭が明瞭化。違和感-015/016は逆向き素材。採否確認は継続",
+        "中核概念候補-001/002/005〜018：整理可否を継続確認。021/022が本体昇格の有力候補として追加"
+      ],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "id": "019",
+          "content": "規律ある実行＝戦略的実行5本柱（やること過多を集中へ整える伴走）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "020",
+          "content": "80:20で集中投下する20%を見極める",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "021",
+          "content": "★影響力の基盤＝信頼・誠実・感情的つながり（共感型・伴走型の理論的支柱）／本体昇格の最有力候補",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "022",
+          "content": "★ワン・コンセプト発見の3円ベン図（肩書・商品・コースの点検ツール／候補-015と束ねる可能性）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "023",
+          "content": "コンセプトのパイプライン＝掛け算効果（3コース段階拡大の理論モデル）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "024",
+          "content": "経営リソースの一致＝人材・時間・予算の調和（クライアントの配分診断）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "for_client",
+          "content": "90日行動計画／実行設計図チェックリスト5ステップ（共感型トーンへ翻訳）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "id": "015",
+          "content": "競争を無効化する/気概で上回る撃破トーン（第3章）→核は採用、トーンは『その人にしかできない実行を地道に積む』側へ",
+          "status": "recorded"
+        },
+        {
+          "type": "discomfort",
+          "id": "016",
+          "content": "市場を支配する/過激で衝撃的トーン（第4章リキッド・デス等）→核は採用、過激トーンは非採用方向",
+          "status": "recorded"
+        }
+      ],
+      "skill_routing_candidates": [
+        "sales-skill：影響力3本柱（候補-021）を体験セッション〜関係維持の柱に／80:20で集中顧客像を見極める診断（候補-020）／90日行動計画の伴走フォーマット",
+        "concepy-product-architect：ワン・コンセプト発見の3円ベン図（候補-022）／コンセプトのパイプライン（候補-023）",
+        "consulting-skill本体（将来）：第5章『統一された設計図（4原則）』を本体SKILL.md初稿の背骨に。戦略的実行5本柱（候補-019）・経営リソースの一致（候補-024）を『実行』セクションの中核に"
+      ],
+      "l0_check": "passed",
+      "l0_note": "L0-001抵触なし・グレーなし（第3〜5章とも単独コンセプト戦略で勧誘構造皆無）。第4章影響力の基盤はL0-001と強く同方向（操作・煽りの対極）。違和感-015/016は核のみ採用しトーンを共感型へ翻訳。L0候補-002の輪郭を第4章が正面から逆照射（採否は砂川さん判断）"
+    },
+    {
+      "version": "0.9.0",
+      "date": "2026-05-23",
+      "type": "minor",
+      "added": [
+        {
+          "item": "10冊目（書籍リスト12冊目）『ブレイクスルー コンセプトブック』抽出（層0の最上流＝たった1つのコンセプトの発見・検証・実行）",
+          "tag": "for-skill",
+          "file": "references/books/10_book12_breakthrough-concept_extract.md",
+          "source": {
+            "type": "book",
+            "title": "ブレイクスルー コンセプトブック（業界トップの地位を築く5つのプロセス）",
+            "author": "ジェイ・エイブラハム",
+            "format": "原典スキャンPDF（日本語訳）",
+            "read_range": "はじめに〜第2章途中（p.4〜169相当）、目次で全5章把握",
+            "read_rate": "≒80%（第3〜5章本文は未読）"
+          },
+          "key_frameworks": [
+            "コンセプトの方程式＝イノベーション＋スケーラビリティ＋持続可能性",
+            "集中＞分散",
+            "コンセプト思考（10%でなく10倍）",
+            "I.D.E.A.フレームワーク",
+            "コンセプトのライフサイクル5段階（発見→概念化→検証→実行→進化）",
+            "コンセプト分析3指標（影響力・成長率・ロンジェビティ）",
+            "TRIPフレームワーク（Target/Relevance/Impact/Positioning）",
+            "5つのレンズ",
+            "SCALERフレームワーク",
+            "オポチュニティ・マトリクス（2×2）",
+            "検証プロセス5ステップ（仮説→MVP→市場関与→管理実験→改良）",
+            "検証コア4指標（導入率・顧客維持率・成約率・顧客フィードバック）"
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "item": "candidates.md に中核概念候補-015/016/017/018、for-client候補2件、違和感-013/014、L0影響を追加",
+          "note": "本体未添付のため candidates_patch_v0.9.0.md として別出し（砂川さんが既存candidates.mdへマージ）"
+        },
+        {
+          "item": "接続マップを10抽出ファイル第8部に更新追記（層0の最上流＝北極星が層0〜3全体を上から束ねる傘）。既存構造は保持・退化防止"
+        }
+      ],
+      "removed": [],
+      "carryover_items_processed": [
+        "L0候補-001（事実性）：本書の検証重視は弱い間接傍証。強い独立補強にはならず、採否確認は継続",
+        "L0候補-002（誠実な希少性のみ・煽り型NG）：本書は同方向の傍証だが違和感-013/014は逆向き素材。L0候補-002の輪郭を逆照射。採否確認は継続",
+        "中核概念候補-001/002/005〜014：整理可否を継続確認。015/017が本体昇格の有力候補として追加"
+      ],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "id": "015",
+          "content": "売上構造プロデュースを「たった1つのコンセプト」として明文化（本体SKILL.md最上流＝北極星セクション有力候補）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "016",
+          "content": "コンセプト思考＝10%でなく10倍・掛け算で問い直す",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "017",
+          "content": "コンセプト3条件でコース・商品を診断",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "id": "018",
+          "content": "検証5ステップ＝検証なき実行はギャンブル（小さく検証する伴走手順）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "for_client",
+          "content": "集中＞分散で1つの売上構造に収束させる説得素材",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "for_client",
+          "content": "オポチュニティ・マトリクス2×2診断",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "discomfort",
+          "id": "013",
+          "content": "競合を無関係にする/突き放す撃破トーン→核は採用、トーンは「自分にしかできない場所を創る」側へ翻訳",
+          "status": "noted"
+        },
+        {
+          "type": "discomfort",
+          "id": "014",
+          "content": "「気の弱い人には向かない」等の煽動トーン→核は採用、トーンは「安心して大きく構想していい」側へ翻訳",
+          "status": "noted"
+        }
+      ],
+      "skill_routing_candidates": [
+        {
+          "skill": "sales-skill",
+          "items": [
+            "コンセプト思考（10倍で問い直す合言葉）",
+            "検証5ステップの伴走フロー"
+          ]
+        },
+        {
+          "skill": "concepy-product-architect",
+          "items": [
+            "コンセプト3条件チェック（コース体系の点検軸）",
+            "検証5ステップ＋オポチュニティ・マトリクスを商品設計の前段に"
+          ]
+        },
+        {
+          "skill": "consulting-skill(future)",
+          "items": [
+            "ブレイクスルーコンセプト＝層0の最上流＝北極星として本体SKILL.md初稿冒頭に",
+            "I.D.E.A./TRIP/ライフサイクル/検証5ステップを発見〜検証〜実行の背骨に"
+          ]
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "L0-001（マルチ商法NG）抵触なし・グレーなし（自社↔市場の単独コンセプト戦略、紹介報酬・ダウンライン皆無）。むしろムーブメント創造・永続的な感情の絆を志向しL0-001と同方向。違和感-013/014（競争撃破・煽動トーン）は核のみ採用しトーンを共感型へ翻訳、L0候補-002の輪郭を逆照射。第3〜5章は未読（次回追補予定）。"
+    },
+    {
+      "version": "0.8.0",
+      "date": "2026-05-23",
+      "type": "minor",
+      "added": [
+        {
+          "item": "9冊目（書籍リスト11冊目／当初計画外の追加素材）「$100M Offers（150億円オファー）」抽出：グランドスラムオファー=断るのが愚かに思える申し出を作る（層2=何を・いくらで・どう包んで売るか）／2大問題(顧客不足・現金不足)を価格競争脱却で同時解決／コモディティ問題と成長3要素(顧客数・平均購入額・購入回数=8冊目LTVと完全一致)／飢えた群衆と市場選び4指標(痛み・購買力・到達性・成長)と常在3大市場(健康・富・関係)／ニッチ価格(絞るほど高く売れる)／プレミアム価格と価格の好循環(高く売ると顧客の本気度・知覚価値・成果が上がる)／★価値方程式=(夢の成果×達成確率)÷(時間×労力)・分母を削るほど価値無限大・Perception is Reality／オファー作成5ステップ(夢の成果→問題列挙→解決へ反転→デリバリー手段発想[デリバリーキューブ/10x-1/10テスト]→トリム&スタック)・信条=Create flow/Monetize flow/Then add friction／オファー強化4+1(希少性[正直な希少性]・緊急性[コホート/季節/価格/爆発機会]・特典[値引きでなく価値を積む・他社商品も特典化]・保証[無条件/条件付き/アンチ/暗黙=成果報酬・計算で判断]・ネーミング[M-A-G-I-C公式・中身は変えず包装紙を変える])",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "$100M Offers（邦題：150億円オファー）",
+            "author": "Alex Hormozi",
+            "publisher": "Acquisition.com, LLC",
+            "year": "2021",
+            "format": "原典PDF（英語）。本文ページを画像直読。巻末セールス導線・手書き図細部はスキップ ≒90%",
+            "file": "references/books/09_book11_offers_extract.md"
+          }
+        }
+      ],
+      "changed": [
+        "candidates.md：中核概念候補-011/012/013/014を新規追加、for-client候補2件(2大問題分解・市場4指標)を追加、違和感-011/012を新規追加、L0影響(誠実な希少性=弱い傍証・新規L0候補-002の芽)を記録。本体未添付のためcandidates_patch_v0.8.0.mdとして別出し(砂川さんが既存candidates.mdへマージ)",
+        "接続マップは09抽出ファイル第7部に①〜④(立ち位置〜期待醸成)→★オファー設計【層2・本書】→⑤経路→⑥成約→⑦関係維持【層3】として更新追記。本書が流れの核(層2)を埋め層0〜3が概念上ひとそろい揃った。既存構造は保持(退化防止)"
+      ],
+      "removed": [],
+      "carryover_items_processed": [
+        {
+          "item": "L0候補-001(事実性)の採否・最終文言確認",
+          "status": "pending_confirmation",
+          "note": "本書の『正直な希少性(honest scarcity)』は発信・約束の事実性への弱い間接傍証になるが、希少性章は演出も多く扱うため強い独立補強にはならない。3冊(ローンチ/PR/ポジショニング)による補強状況は不変、採否確認は継続"
+        },
+        {
+          "item": "中核概念候補-001/002/005/006/007/008/009/010の整理可否確認",
+          "status": "pending_confirmation",
+          "note": "継続。今回さらに011(価値方程式=層2フレーム)・012(高単価=伴走の価格根拠)が本体SKILL.md昇格の有力候補として加わる"
+        }
+      ],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "content": "売上構造の層2=オファー設計を価値方程式(夢の成果×達成確率÷時間×労力)で一枚で持つ",
+          "source": "$100M Offers SECTION III Value",
+          "status": "pending_confirmation",
+          "note": "砂川さんの3コースは既にこの構造。本体SKILL.md昇格の有力候補"
+        },
+        {
+          "type": "core_concept",
+          "content": "高単価は顧客を本気にさせ成果を出させる手段(伴走型の価格根拠)",
+          "source": "$100M Offers Virtuous Cycle of Price / Higher Price Means Higher Value",
+          "status": "pending_confirmation",
+          "note": "248,000〜798,000円の3コースの価格哲学の説明軸。for-self/sales-skill候補"
+        },
+        {
+          "type": "core_concept",
+          "content": "値引きでなく特典を積んで高単価を守る(スタック思考)",
+          "source": "$100M Offers Enhancing The Offer: Bonuses",
+          "status": "pending_confirmation",
+          "note": "体験セッションでの値引き要求への標準対応。sales-skill候補"
+        },
+        {
+          "type": "core_concept",
+          "content": "中身は変えず包装紙を変える(オファー/発信のエバーグリーン化・M-A-G-I-C公式)",
+          "source": "$100M Offers Naming / What Happens When Offers Fatigue",
+          "status": "pending_confirmation",
+          "note": "コース名/キャンペーン名づくり・SNS発信のネタ枯渇対策。for-self/sales-skill候補"
+        },
+        {
+          "type": "for_client",
+          "content": "悩みを『顧客が足りない/現金が足りない』の2軸に分解する診断",
+          "source": "$100M Offers The Two Main Problems",
+          "status": "pending_confirmation",
+          "note": "共感型トーンへ翻訳して使用(数字で詰めるのでなく一緒に整理する)"
+        },
+        {
+          "type": "for_client",
+          "content": "市場選び4指標チェックリスト(痛み・購買力・到達性・成長)",
+          "source": "$100M Offers Finding The Right Market",
+          "status": "pending_confirmation",
+          "note": "クライアントのターゲット選定支援。強い表現は砂川さんのトーンへ翻訳"
+        },
+        {
+          "type": "discomfort",
+          "content": "希少性・緊急性の煽りトーン→核は採用するが『正直な希少性』側に寄せる",
+          "source": "$100M Offers Scarcity / Urgency",
+          "status": "pending_confirmation",
+          "note": "L0-001抵触なし。ただし煽り型の対極でありたい砂川さんの理念と整合させる。新規L0候補-002の芽"
+        },
+        {
+          "type": "discomfort",
+          "content": "アンチ保証(全販売最終)のトーン→条件付き/成果報酬型を採用候補、アンチ保証は非採用方向",
+          "source": "$100M Offers Guarantees: Anti-Guarantee / Implied",
+          "status": "pending_confirmation",
+          "note": "本書最推しの条件付き/暗黙(成果報酬)保証が伴走型と親和"
+        },
+        {
+          "type": "L0",
+          "content": "煽り・刈り取り・偽の希少性は使わない(誠実な希少性のみ)",
+          "source": "$100M Offers Honest Scarcity（逆照射）",
+          "status": "pending_confirmation",
+          "note": "新規L0候補-002の芽。8冊目で確認した『生涯ファン育成は刈り取り/煽り型の対極』と一致。採否は砂川さん判断"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "本書は二者間(自社↔顧客)のオファー設計の方法論で勧誘・紹介報酬・ダウンライン構造は皆無。抵触なし・グレーなし。『他社商品を特典化(提携先紹介)』は相互送客であって多段報酬構造ではない=L0-001とは別物。希少性・緊急性・アンチ保証の一部トーンは『煽り/刈り取りの対極でありたい』砂川さんの理念と温度差があり、核のみ採用し正直な希少性/条件付き・成果報酬保証側へ翻訳。新規L0候補-002(誠実な希少性のみ・煽り型NG)の芽として記録",
+      "skill_routing_candidates": {
+        "sales-skill": "値引き要求への特典スタック標準対応／2大問題の診断分解／市場4指標チェック",
+        "concepy-product-architect": "価値方程式によるオファー設計／問題→解決→トリム&スタックの商品組み立て手順／コース段階設計(デリバリーキューブ)",
+        "consulting-skill本体(将来)": "価値方程式・グランドスラムオファー作成5ステップ・オファー強化4+1を層2の中核ロジックとして昇格検討"
+      }
+    },
+    {
+      "version": "0.7.0",
+      "date": "2026-05-22",
+      "type": "minor",
+      "added": [
+        {
+          "item": "8冊目（書籍リスト10冊目）「LTV最大化」抽出：顧客を生涯の関係(LTV)で見る／源流=One to One→CRM→LTV／法則3兄弟(2:8・1:5・5:25)／LTVの4つの顔(KPI・許容CPO・理念・活動)／最優先KPI=ランク別顧客数(売上を人数へ分解し移行率を運用)／RPDC(Research→Plan→Do→Communication)／店頭活動モノ→コト→ココロ(接客=共感・共震・共有、ツール=DM/メール/LINE/電話の既存フォロー)／仕組み化3条件／導入事例カワサキ・カネボウ(生涯ファン育成ピラミッド)",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "LTV最大化（AI読解用・構造保持版 v1.0）",
+            "author": "齋藤孝太（文書メタデータ。不明箇所は暫定。出版社・刊行年はテキストに含まれず）",
+            "doc_id": "LTV_MAX_0001",
+            "chapters_read": "全6章＋付録（用語集・数式集・図表プレースホルダ・参考文献・索引タグ）。図表の生数値のみ欠落 ≒90%",
+            "file": "references/books/08_book10_ltv_extract.md"
+          }
+        }
+      ],
+      "changed": [
+        "candidates.md：中核概念候補-008/009/010を新規追加、for-client候補(3法則の説明素材)を追加、違和感-008/009/010を新規追加。本体未添付のためcandidates_patch_v0.7.0.mdとして別出し(砂川さんが既存candidates.mdへマージ)",
+        "接続マップは08抽出ファイル第10部に①〜⑤(引き寄せ〜経路)→⑥成約→⑦関係を伸ばし続ける【層3・本書】として更新追記。既存構造は保持(退化防止)"
+      ],
+      "removed": [],
+      "carryover_items_processed": [
+        {
+          "item": "L0候補-001(事実性)の採否・最終文言確認",
+          "status": "pending_confirmation",
+          "note": "本書は'売った後の関係'が主題のため発信の事実性への直接補強は弱い(弱い傍証に留める)。3冊(ローンチ/PR/ポジショニング)による独立補強の状況は不変、採否確認は継続"
+        },
+        {
+          "item": "中核概念候補-001/002/005/006/007の整理可否確認",
+          "status": "pending_confirmation",
+          "note": "継続。今回さらに008(売上構造の後段=生涯価値)はコース体系と同型、009(共感/共震/共有)は砂川さんの伴走型と同義で整理候補"
+        }
+      ],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept",
+          "content": "売上構造には成約の後段がある(集客→成約で閉じず、生涯価値で関係を伸ばす段を持つ)",
+          "source": "LTV最大化 第1・3・6章",
+          "status": "pending_confirmation",
+          "note": "砂川さんのコース体系(ベーシック→スタンダード→アドバンス)とランク別・段階引き上げが同型。既にある実践を本書が照らした形"
+        },
+        {
+          "type": "core_concept",
+          "content": "共感・共震・共有(砂川さんの共感型・伴走型セールスの中身を3段で言語化)",
+          "source": "LTV最大化 第4.1節",
+          "status": "pending_confirmation",
+          "note": "sales-skill振り分け候補。書籍語そのままでなく砂川さんの体験で再定義する余地"
+        },
+        {
+          "type": "core_concept",
+          "content": "どのLTVの顔(KPI/投資判断/理念/現場活動)の話かを最初に揃える=ズレ解消の診断フレーム",
+          "source": "LTV最大化 第1.9〜1.10節",
+          "status": "pending_confirmation",
+          "note": "体験セッションの診断ステップへ翻訳可。sales-skill振り分け候補"
+        },
+        {
+          "type": "for_client",
+          "content": "2:8/1:5/5:25で既存客フォローの重要性を数字で納得させる説明素材",
+          "source": "LTV最大化 第1.3節・付録B",
+          "status": "noted",
+          "note": "数値は目安・業種で変動。断定でなく一般論として添える"
+        },
+        {
+          "type": "dissonance",
+          "content": "デジタルは脇役・リアルが主役=媒体の主従は本書固有前提として非採用、関係の質的中身のみSNS/DM/LINEへ翻訳",
+          "source": "LTV最大化 第2・4章",
+          "status": "noted"
+        },
+        {
+          "type": "dissonance",
+          "content": "顧客ランク付けのトーン=核(段階で捉え移行を設計)は採用、人を値踏みするトーンは伴走的言い回しへ変換",
+          "source": "LTV最大化 第3.3節",
+          "status": "noted"
+        },
+        {
+          "type": "dissonance",
+          "content": "フォーマットで行動を強制的に正す(RPDCのP)=仕組みは採用、強制トーンは型でやさしく後押しへ翻訳",
+          "source": "LTV最大化 第3.2節",
+          "status": "noted"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "本書はリアル店舗の既存顧客との関係維持・深化の方法論で、勧誘・紹介報酬・ダウンライン構造は皆無。抵触なし・グレーなし。むしろ意図あるLTV向上・生涯ファン育成は刈り取り型/煽り型の対極でL0-001と同方向。",
+      "skill_routing_candidates": {
+        "sales-skill": [
+          "共感/共震/共有(伴走の中身の言語化)",
+          "どのLTVの顔かを揃える診断フレーム(体験セッション冒頭)",
+          "2:8/1:5/5:25の説明素材(既存客フォローの納得づけ)"
+        ],
+        "concepy-product-architect": [
+          "ランク別・段階引き上げ設計(コース体系ベーシック→スタンダード→アドバンスとの接続)"
+        ]
+      }
+    },
+    {
+      "version": "0.6.0",
+      "date": "2026-05-22",
+      "type": "minor",
+      "added": [
+        {
+          "item": "7冊目「ポジショニング戦略」抽出：戦う場所は商品でなく見込み客の頭の中／頭の中の商品のはしご／一番手の法則（市場で初でなく頭の中で初）／二番手の3戦略(対抗型・○○ではない型・対置型)／リーダーへの正面攻撃禁止＝迂回／穴の探し方と工場の穴の戒め／ポジション崩し(≠比較広告)／ネーミングの力とライン拡大の罠(シーソーの原則)／小さな存在の実例(地方銀行・三番手銀行)／第23章 自分自身のポジショニング／24章 6つの自問・25章 12の決め手",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "ポジショニング戦略（原題 Positioning: The Battle for Your Mind）",
+            "author": "アル・ライズ／ジャック・トラウト（part6 訳者あとがきで確定。part1〜5本文は著者表記なし＝OCR元PDFに扉情報なし）",
+            "chapters_read": "序章〜第25章＋訳者あとがき（全章）。図表の数値表のみ欠落 ≒95%",
+            "file": "references/books/07_book09_positioning_extract.md"
+          }
+        }
+      ],
+      "changed": [
+        "candidates.md：L0候補-001に7冊目の補強を追記（事実性を支持する独立3冊目＝ローンチ/PR戦略/ポジショニング）。文言拡張案の射程に立ち位置・約束を追加",
+        "candidates.md：中核概念候補-005/006/007を新規追加、違和感-005/006/007を新規追加",
+        "概念マッピングは07抽出ファイル第10部に更新接続マップ(①立ち位置→②物語の軸→③中身→④3段→⑤3経路)として独立記述。既存構造は保持（退化防止）"
+      ],
+      "removed": [],
+      "carryover_items_processed": [
+        {
+          "item": "L0候補-001（事実性）の採否・最終文言確認＋7冊目による独立3冊目の補強",
+          "status": "pending_confirmation",
+          "note": "ローンチ＝希少性／PR戦略＝最上級表現／ポジショニング＝立ち位置の3文脈が同方向。文言を発信・約束・立ち位置の事実性へ拡張する案を後押し"
+        },
+        {
+          "item": "中核概念候補-001/002（ホープマーケティング脱却／カンバセーション起点）の整理可否確認",
+          "status": "pending_confirmation",
+          "note": "継続。002は砂川原則-003と近接。今回さらに中核概念候補-007（ウリを1つに）も砂川原則-003と束ねる候補に"
+        }
+      ],
+      "crystallizing_candidates": [
+        {
+          "type": "L0_reinforcement",
+          "content": "発信・約束・立ち位置は実態のある事実の範囲でのみ行う＝L0候補-001を独立3冊目として補強",
+          "source": "ポジショニング戦略 第8・19・20・25章",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "立ち位置を先に決める（発信・物語の前に頭の中のどこを取るか）",
+          "source": "ポジショニング戦略 序章・第1章・第24章",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "自分専用の細いはしごを新設して1段目を取る（一番手の法則＋6冊目の二番手問題なしを連結）",
+          "source": "ポジショニング戦略 第3・4・6章 ＋ 小さな会社のPR戦略",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "ウリは1つに絞る（人も商品も万人ウケで死ぬ）",
+          "source": "ポジショニング戦略 第7・23章",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "dissonance",
+          "content": "対決的トーン（競合をけなす広告）＝原理のみ採用しトーンは非採用（対決でなく対比へ翻訳）",
+          "source": "ポジショニング戦略 第8章",
+          "status": "noted"
+        },
+        {
+          "type": "dissonance",
+          "content": "功利的な人間関係観（勝ち馬に乗れ）＝核のみ採用しトーンは外す",
+          "source": "ポジショニング戦略 第23章",
+          "status": "noted"
+        },
+        {
+          "type": "dissonance",
+          "content": "大企業・マス・全国広告前提＝媒体/規模固有論は不採用、普遍原理のみSNS・個人事業へ翻訳",
+          "source": "ポジショニング戦略 全体",
+          "status": "noted"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "本書はマーケティング戦略（認知・ブランド・ネーミング）で勧誘構造なし。グレーなし。むしろ事実性原則がL0候補-001を独立に補強する方向。",
+      "skill_routing_candidates": {
+        "concepy-product-architect": [
+          "立ち位置を先に決める／自分専用の細いはしご（中核概念候補-005/006）",
+          "ネーミングの力・ライン拡大の罠（商品/サービス/肩書きの命名設計）"
+        ],
+        "sales-skill": [
+          "24章 6つの自問（体験セッションの診断フレーム化）",
+          "第23章 ウリを1つに絞る（クライアントの肩書き・発信の核の設計）"
+        ]
+      }
+    },
+    {
+      "version": "0.5.0",
+      "date": "2026-05-22",
+      "type": "minor",
+      "added": [
+        {
+          "item": "6冊目「小さな会社のPR戦略」抽出：中小企業はストーリーを売る／ニュース=変化の兆し／取り上げる3原則／3軸ストーリー構築法(社会軸・社長軸・組織軸)／プレスリリース3原則・3部構成",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "小さな会社のPR戦略（タダで、何度も、テレビに出る）",
+            "author": "元報道ディレクター（OCR版に著者明記なし。WBS/ガイアの夜明け 元ディレクターによる中小企業PR支援書）",
+            "chapters_read": "序章〜第4章前半 (~80%)",
+            "file": "references/books/06_book08_pr-strategy_extract.md"
+          }
+        }
+      ],
+      "changed": [
+        "マスターファイル第1.95部に6冊目取り込み記録を追加（第1.9部=ローンチ記録は保持）",
+        "概念マッピング表は4冊目までの構造を保持し6冊目は独立追記（退化防止）"
+      ],
+      "removed": [],
+      "carryover_items_processed": [
+        {
+          "item": "L0候補-001（希少性は実態の範囲で）の採否確認＋6冊目による拡張提案",
+          "status": "pending_confirmation",
+          "note": "6冊目のプレスリリース原則②・組織軸注意点が独立に同方向。希少性→発信全般の事実性への拡張を問い化"
+        },
+        {
+          "item": "中核概念候補-001/002（ホープマーケティング脱却／カンバセーション起点）の整理可否確認",
+          "status": "pending_confirmation",
+          "note": "002は砂川原則-003と近接、束ねる可能性を明記"
+        }
+      ],
+      "crystallizing_candidates": [
+        {
+          "type": "L0_reinforcement",
+          "content": "発信は実態の範囲で（根拠なき最上級・実態のない施策をしない）＝L0候補-001の補強・拡張提案",
+          "source": "小さな会社のPR戦略 第3・4章",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "商品スペックでなくストーリーで発信する（社会軸/社長軸/組織軸）",
+          "source": "小さな会社のPR戦略 第3章",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "業界の枠組みで自分を定めない（事業を俯瞰して捉え直す）",
+          "source": "小さな会社のPR戦略 第3章 社会軸",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "dissonance",
+          "content": "舞台がテレビ報道番組に限定（媒体固有論は不採用、原理のみ採用してSNS等へ翻訳）",
+          "source": "小さな会社のPR戦略 全体",
+          "status": "noted"
+        },
+        {
+          "type": "dissonance",
+          "content": "earned media依存（owned起点の砂川さんとは補完で整理する仮説）",
+          "source": "小さな会社のPR戦略 全体",
+          "status": "needs_reconciliation"
+        }
+      ],
+      "l0_check": "passed",
+      "l0_note": "本書は発信・PR手法で勧誘構造なし。グレーなし。むしろL0候補-001（事実性）を補強する方向。",
+      "skill_routing_candidates": {
+        "concepy-product-architect": [
+          "3軸ストーリー（特に社会軸＝事業目的の物語化）",
+          "業界の枠組みで自分を定めない（事業の捉え直し）"
+        ],
+        "sales-skill": [
+          "振り幅の法則（落差で物語を魅力化）",
+          "社長軸の3条件（砂川さん自身が物語を語る場面）"
+        ]
+      }
+    },
+    {
+      "version": "0.4.1",
+      "date": "2026-05-22",
+      "type": "patch",
+      "added": [
+        {
+          "item": "砂川原則-001：SNSは出会い・関係構築の入口、必ずその先（リスト）へ渡す",
+          "tag": "for-skill",
+          "source": {
+            "type": "sunagawa-insight",
+            "date": "2026-05-22"
+          }
+        },
+        {
+          "item": "砂川原則-002：SNSの先は3経路を選び分ける（LINE=低単価で速く／メルマガ=高額バックエンドでじっくり／DM=刺さった熱量をその場でアポ）",
+          "tag": "for-skill",
+          "source": {
+            "type": "sunagawa-insight",
+            "date": "2026-05-22"
+          }
+        },
+        {
+          "item": "砂川原則-003：全経路の起点=ピンポイントで刺さる発信（奥の悩みを名指す。4冊目の論点思考・ジョブ理論・プロービングと接続）",
+          "tag": "for-skill",
+          "source": {
+            "type": "sunagawa-insight",
+            "date": "2026-05-22"
+          }
+        }
+      ],
+      "changed": [
+        "ローンチ抽出の違和感記録（SNS vs リスト）を砂川原則への発展として更新",
+        "マスターファイル第1.9部に砂川原則を追記"
+      ],
+      "removed": [],
+      "crystallizing_candidates": [
+        {
+          "type": "core_concept_confirmed",
+          "content": "砂川原則001〜003（SNS→3経路の集客設計）",
+          "status": "confirmed_by_sunagawa",
+          "note": "本体SKILL.md昇格の最有力候補"
+        },
+        {
+          "type": "open_question",
+          "content": "LINE/メルマガの単価の具体ライン、切り替え・併用タイミング",
+          "status": "needs_future_articulation"
+        }
+      ],
+      "l0_check": "passed"
+    },
+    {
+      "version": "0.4.0",
+      "date": "2026-05-22",
+      "type": "minor",
+      "added": [
+        {
+          "item": "consulting-skill ディレクトリ構造の新規作成",
+          "tag": "for-skill",
+          "source": {
+            "type": "internal",
+            "note": "skill-evolver ファイル構造規定に準拠"
+          }
+        },
+        {
+          "item": "既存抽出2本の取り込み（マスター索引・思考エンジン3冊）",
+          "tag": "for-skill",
+          "source": {
+            "type": "prior-extract",
+            "files": [
+              "00_MASTER_handover.md",
+              "04_book04-06_thinking-engine_extract.md"
+            ]
+          }
+        },
+        {
+          "item": "ザ・ローンチ（PLF）抽出：4段シーケンス／サイドウェイズレター／9メンタルトリガー／リスト戦略／3ローンチ種別",
+          "tag": "for-skill",
+          "source": {
+            "type": "book",
+            "title": "ザ・ローンチ（プロダクトローンチ・フォーミュラ／PLF）",
+            "author": "ジェフ・ウォーカー",
+            "chapters_read": "1-6, 9-11, glossary (~70%)",
+            "file": "references/books/05_book07_launch_extract.md"
+          }
+        }
+      ],
+      "changed": [],
+      "removed": [],
+      "crystallizing_candidates": [
+        {
+          "type": "L0",
+          "content": "希少性・限定は実態のある事実の範囲でしか使わない（嘘の締切・限定を作らない）",
+          "source": "ザ・ローンチ 第5章（希少性）",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "ホープマーケティングからの脱却＝祈って売るのをやめ、設計して売り出す",
+          "source": "ザ・ローンチ 第2章",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "core_concept",
+          "content": "売り込まず、まず価値を連続で渡してから募集する（カンバセーション起点）",
+          "source": "ザ・ローンチ 第2・4章",
+          "status": "pending_confirmation"
+        },
+        {
+          "type": "dissonance",
+          "content": "SNSのリストは価値が低い／Eメールリストがすべて（砂川さんのSNS起点と異質）",
+          "source": "ザ・ローンチ 第3章",
+          "status": "needs_reconciliation"
+        },
+        {
+          "type": "dissonance",
+          "content": "7日で6桁ドル式の派手な成果強調トーン（伴走型と温度差、煽りトーンは非採用方針）",
+          "source": "ザ・ローンチ 第1章",
+          "status": "noted"
+        }
+      ],
+      "l0_check": "passed_with_gray_zones",
+      "l0_gray_zones": [
+        "JVローンチの拡張方向（紹介を主軸収益にするとL0-001抵触しうる）",
+        "メンタルトリガー（希少性・社会的証明）の煽り運用"
+      ],
+      "skill_routing_candidates": {
+        "sales-skill": [
+          "サイドウェイズ・セールスレター（体験セッション前の連続コンテンツ設計）",
+          "9つのメンタルトリガー（倫理的活用）",
+          "希少性の倫理的運用（実態ある限定のみ）"
+        ]
+      }
+    }
+  ]
+}
