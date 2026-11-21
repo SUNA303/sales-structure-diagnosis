@@ -1,492 +1,643 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>売上構造診断セッション | 売上を止めている原因と次の90日を整理</title>
-  <meta name="description" content="発信・商品・強み・導線・提案を一枚の地図に整理し、売上を止めているボトルネックと次の90日で取り組む順番を明確にする、90分のオンライン個別診断です。">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="売上構造診断セッション">
-  <meta property="og:description" content="努力を増やす前に、売上の流れを整理する。90分・5,000円のオンライン個別診断。">
-  <meta property="og:url" content="https://sales-structure-diagnosis.pages.dev/">
-  <meta property="og:image" content="https://sales-structure-diagnosis.pages.dev/assets/images/og.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="売上構造診断セッション">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="売上構造診断セッション">
-  <meta name="twitter:description" content="努力を増やす前に、売上の流れを整理する。90分・5,000円のオンライン個別診断。">
-  <meta name="twitter:image" content="https://sales-structure-diagnosis.pages.dev/assets/images/og.png">
-  <link rel="canonical" href="https://sales-structure-diagnosis.pages.dev/">
-  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./script.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>売上構造プロデュース体験セッション｜無料60分・オンライン1対1</title>
+<meta name="description" content="投稿も商品もあるのに申込みにつながらない方へ。今ある発信と商品を、申込みまでつながる1枚のシートにする、無料60分のオンライン1対1体験セッション。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+
+<script src="assets/trial/tracking-init.js"></script>
+
+<link rel="stylesheet" href="assets/trial/style.css">
+<link rel="canonical" href="https://lp.sunagawalab.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="売上構造プロデュース体験セッション｜無料60分・オンライン1対1">
+<meta property="og:description" content="今ある投稿と商品で、相談が申し込まれる道筋を60分で作る。オンライン1対1の無料体験セッション。">
+<meta property="og:url" content="https://lp.sunagawalab.com/">
+<meta name="twitter:card" content="summary">
 </head>
 <body>
-  <a class="skip-link" href="#main-content">本文へ移動</a>
 
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="ページ上部へ">
-      <span class="brand-symbol">SD</span>
-      <span class="brand-copy"><strong>STRUCTURE</strong><small>DIAGNOSIS</small></span>
-    </a>
-    <nav aria-label="ページ内ナビゲーション">
-      <a href="#reason">売上が止まる理由</a>
-      <a href="#diagnosis">診断内容</a>
-      <a href="#cases">匿名事例</a>
-      <a href="#details">料金・流れ</a>
-    </nav>
-    <a class="cta-button compact js-checkout" data-location="header" href="https://page.theapps.jp/charge/join/U8hv3G40M25k52f9">
-      <span>診断に申し込む</span><b aria-hidden="true">→</b>
-    </a>
-  </header>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5.5h16v10H9.5L4 19.5z"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-4 4-6 7.5-6s6.3 2 7.5 6"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M10 6h10M10 12h10M10 18h10"/><path d="M4 6l1.2 1.2L7.5 5M4 12l1.2 1.2L7.5 11M4 18l1.2 1.2L7.5 17"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M3.5 5.5c2.8-1.4 5.7-1.4 8.5 0v14c-2.8-1.4-5.7-1.4-8.5 0zM12 5.5c2.8-1.4 5.7-1.4 8.5 0v14c-2.8-1.4-5.7-1.4-8.5 0"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h6.5a3.5 3.5 0 0 0 0-7h-5a3.5 3.5 0 0 1 0-7H16"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5.5 21V3.5"/><path d="M5.5 4.5h11l-2.2 3.7 2.2 3.8h-11"/></symbol>
+  <symbol id="i-sheet" viewBox="0 0 24 24"><path d="M6 2.5h8l4 4v15H6z"/><path d="M14 2.5v4h4M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l1-4.5L15.5 5a2.1 2.1 0 0 1 3 3L8 18.5z"/><path d="M13.5 7l3 3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-video" viewBox="0 0 24 24"><rect x="2.5" y="6" width="13" height="12" rx="2"/><path d="M15.5 10.5l6-3.5v10l-6-3.5"/></symbol>
+</svg>
 
-  <main id="main-content">
-    <section class="hero" id="top">
-      <div class="network" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <p class="hero-kicker">発信を頑張っているのに、申込みにつながらない方へ</p>
-          <p class="hero-en" aria-hidden="true">SALES STRUCTURE<br>DIAGNOSIS</p>
-          <h1><span>発信を増やす前に、</span><span>売上が止まる場所を</span><strong>見つけませんか？</strong></h1>
-          <p class="hero-lead">発信・商品・強み・導線・提案を、<span class="no-break">一枚の地図に整理します。</span><span class="no-break">売上を止めている原因</span>と、<span class="no-break">次の90日で取り組む順番</span>を明確にする<span class="no-break">オンライン個別診断です。</span></p>
-          <div class="hero-points" aria-label="診断セッションの特徴">
-            <span>Zoom・1対1</span><span>90分</span><span>5,000円（税込）</span>
-          </div>
-          <div class="hero-action">
-            <a class="cta-button js-checkout" data-location="hero" href="https://page.theapps.jp/charge/join/U8hv3G40M25k52f9">
-              <span>売上構造診断に申し込む</span><b aria-hidden="true">→</b>
-            </a>
-            <p>ボタンを押すと事前決済ページへ進みます。決済後に日程を予約できます。</p>
-          </div>
-        </div>
-
-        <aside class="structure-visual" aria-label="売上構造を構成する5つの要素">
-          <p>YOUR BUSINESS MAP</p>
-          <div class="orbit">
-            <span class="orbit-item item-1"><i>01</i>発信</span>
-            <span class="orbit-item item-2"><i>02</i>商品</span>
-            <span class="orbit-item item-3"><i>03</i>強み</span>
-            <span class="orbit-item item-4"><i>04</i>導線</span>
-            <span class="orbit-item item-5"><i>05</i>提案</span>
-            <strong><small>診断後</small>優先順位が<br>見える</strong>
-          </div>
-          <p class="visual-caption">努力を増やす前に、流れを整える。</p>
-        </aside>
-      </div>
-    </section>
-
-    <section class="proof-strip" aria-label="セッション概要">
-      <div><strong>90</strong><span>分の個別診断</span></div>
-      <div><strong>5</strong><span>つの構造を整理</span></div>
-      <div><strong>90</strong><span>日間の優先順位</span></div>
-      <div><strong>1</strong><span>対1のオンライン</span></div>
-    </section>
-
-    <section class="section resistance-section">
-      <div class="narrow-copy">
-        <p class="eyebrow">BEFORE YOU LEARN MORE</p>
-        <h2><span class="heading-line">ノウハウを増やす前に、</span><span class="heading-line">今あるものを整理しませんか？</span></h2>
-        <p class="lead-paragraph">「もっと発信しなければ」「商品を作り直さなければ」「セールスを学び直さなければ」。<span class="no-break">売上が安定しないときほど、</span>やることを増やしたくなるかもしれません。</p>
-        <p>けれど、発信も商品もあるのに申込みにつながらないなら、足りないものを追加するだけでは解決しないことがあります。</p>
-        <p>これまでの経験や価値を捨てるのではなく、一つの流れにつながっているかを確認します。</p>
-        <p>このページでご案内するのは、正解を一方的に教える講座ではありません。今の事業を一緒に広げ、流れが止まっている場所を整理する90分です。</p>
-      </div>
-    </section>
-
-    <section class="section concerns">
-      <div class="section-title">
-        <p>CURRENT ISSUES</p>
-        <h2><span class="heading-line">こんな「頑張っているのに」を、</span><span class="heading-line">抱えていませんか？</span></h2>
-        <i aria-hidden="true"></i>
-      </div>
-      <div class="worry-grid">
-        <div class="worry-card"><span>01</span><p>発信しても、申込みにつながらない</p></div>
-        <div class="worry-card"><span>02</span><p>強みや価値を、うまく言葉にできない</p></div>
-        <div class="worry-card"><span>03</span><p>入口商品がまとまらず、何を売るか迷っている</p></div>
-        <div class="worry-card"><span>04</span><p>学びは増えたのに、売上までの流れが見えない</p></div>
-        <div class="worry-card"><span>05</span><p>やることが多く、優先順位を決められない</p></div>
-        <div class="worry-card"><span>06</span><p>相談は入るが、提案・成約につながらない</p></div>
-        <div class="worry-card"><span>07</span><p><span class="worry-line">入口商品と本命商品の</span><span class="worry-line">役割や流れが曖昧</span></p></div>
-        <div class="worry-card"><span>08</span><p>一人で考えるほど選択肢が増え、判断が遅れる</p></div>
-        <div class="worry-card"><span>09</span><p><span class="worry-line">セールスが苦手で、</span><span class="worry-line">提案に自信が持てない</span></p></div>
-      </div>
-      <div class="empathy-copy">
-        <p>どれか一つでも当てはまるなら、能力や努力が足りないと決めつける必要はありません。</p>
-        <p>発信、商品、強み、導線、提案は、別々の課題に見えても互いに影響します。一部分だけを直しても、前後がつながらなければ、お客様は申込みまで進めません。</p>
-      </div>
-    </section>
-
-    <section class="section reason-section" id="reason">
-      <div class="heading-row">
-        <div class="section-title light">
-          <p>WHY SALES STOP</p>
-          <h2><span class="heading-line">売上が止まる原因は、</span><span class="heading-line">「点」の施策だけでは見えません。</span></h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <p>一つひとつは良くても、次の行動へつながる設計がなければ、お客様は途中で止まってしまいます。</p>
-      </div>
-      <div class="broken-flow" aria-label="施策が分断されている状態">
-        <div><span>01</span><strong>発信</strong><p>知ってもらえる</p></div><b aria-hidden="true">×</b>
-        <div><span>02</span><strong>商品</strong><p>興味と合わない</p></div><b aria-hidden="true">×</b>
-        <div><span>03</span><strong>強み</strong><p>違いが伝わらない</p></div><b aria-hidden="true">×</b>
-        <div><span>04</span><strong>導線</strong><p>次が分からない</p></div><b aria-hidden="true">×</b>
-        <div><span>05</span><strong>提案</strong><p>決めきれない</p></div>
-      </div>
-      <div class="reason-copy two-column-copy">
-        <div>
-          <h3>発信を増やしても、入口が曖昧なら申込みは増えません。</h3>
-          <p>誰に何を届けるかが明確でも、その人が「自分のための商品だ」と感じられなければ、次の行動にはつながりません。</p>
-        </div>
-        <div>
-          <h3>商品を作り込んでも、価値が伝わらなければ選ばれません。</h3>
-          <p>内容に自信があっても、お客様が比較するときに違いを理解できなければ、判断を保留しやすくなります。</p>
-        </div>
-        <div>
-          <h3>導線があっても、提案まで不自然なら途中で止まります。</h3>
-          <p>投稿、講座、相談、商品が並んでいても、次に何をすればよいかが分からなければ、お客様は動けません。</p>
-        </div>
-        <div>
-          <h3>すべてを同時に直すと、本当の優先順位が見えません。</h3>
-          <p>必要なのは全面的な作り直しではなく、最も大きなボトルネックを見つけ、順番を決めることです。</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="structure-section">
-      <div class="structure-inner">
-        <div class="structure-diagram" aria-label="売上構造の5要素">
-          <p class="diagram-word" aria-hidden="true">STRUCTURE</p>
-          <div class="diagram-center">売上の流れ</div>
-          <div class="diagram-node node-1">発信</div>
-          <div class="diagram-node node-2">商品</div>
-          <div class="diagram-node node-3">強み</div>
-          <div class="diagram-node node-4">導線</div>
-          <div class="diagram-node node-5">提案</div>
-        </div>
-        <div class="structure-copy">
-          <div class="section-title">
-            <p>BUSINESS STRUCTURE</p>
-            <h2><span class="heading-line">必要なのは、</span><span class="heading-line">努力を成果へ運ぶ「流れ」です。</span></h2>
-            <i aria-hidden="true"></i>
-          </div>
-          <p class="lead-copy">売上構造とは、発信・商品・強み・導線・提案が、お客様の意思決定に沿ってつながっている状態です。</p>
-          <p>たとえば、発信で興味を持った人が、自分に合う商品を見つけ、選ぶ理由を理解し、迷わず相談へ進む。さらに、納得して提案を受け取れる。この流れが自然につながるほど、<span class="no-break">無理な売り込みに</span>頼る必要は少なくなります。</p>
-          <p><span class="prose-line">診断では、すべてをゼロから作り直しません。</span><span class="prose-line">今ある活動を活かし、どこから整えると全体が動きやすいかを見つけます。</span></p>
-          <div class="structure-formula"><span>発信</span><b>×</b><span>商品</span><b>×</b><span>強み</span><b>×</b><span>導線</span><b>×</b><span>提案</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section self-check-section">
-      <div class="heading-row">
-        <div class="section-title">
-          <p>QUICK CHECK</p>
-          <h2><span class="heading-line">5つの質問で、</span><span class="heading-line">売上が止まる場所を確かめます。</span></h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <p>すぐに答えが出ない項目があっても問題ありません。その曖昧さが、整理する入口になります。</p>
-      </div>
-      <ol class="check-list">
-        <li><span>01</span><div><strong>発信</strong><p>「誰の、どんな悩みに、何を届けるのか」を一文で説明できますか？</p></div></li>
-        <li><span>02</span><div><strong>商品</strong><p>発信を見た人が、次に選びやすい入口商品がありますか？</p></div></li>
-        <li><span>03</span><div><strong>強み</strong><p>似たサービスではなく、あなたを選ぶ理由が相手の言葉で伝わっていますか？</p></div></li>
-        <li><span>04</span><div><strong>導線</strong><p>知る、興味を持つ、相談する、申し込むまでの次の一歩が明確ですか？</p></div></li>
-        <li><span>05</span><div><strong>提案</strong><p>お客様が不安を残さず、<span class="no-break">自分の意思で決められる説明に</span>なっていますか？</p></div></li>
-      </ol>
-      <div class="insight-box">
-        <strong>答えにくい項目が、すぐに直すべき場所とは限りません。</strong>
-        <p>事業全体を見たときに、どこが最も大きく売上の流れを止めているのか。診断セッションでは、そのつながりと優先順位まで一緒に確認します。</p>
-      </div>
-    </section>
-
-    <section class="section diagnosis-section" id="diagnosis">
-      <div class="heading-row">
-        <div class="section-title">
-          <p>WHAT WE DIAGNOSE</p>
-          <h2><span class="heading-line">売上の流れを、</span><span class="heading-line">5つの視点から一緒に診断します。</span></h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <p>一般論を当てはめるのではなく、現在の商品、発信、顧客導線をもとに整理します。</p>
-      </div>
-      <div class="diagnosis-grid">
-        <article><span>01</span><h3>発信</h3><p>誰に、何を、どんな言葉で届けるか。発信と商品がつながっているかを確認します。</p></article>
-        <article><span>02</span><h3>商品</h3><p>悩みから自然につながる商品か。入口商品と本命商品の役割を確認します。</p></article>
-        <article><span>03</span><h3>強み</h3><p>経験や価値が、相手に伝わる言葉になっているかを確認します。</p></article>
-        <article><span>04</span><h3>導線</h3><p>知る・興味を持つ・相談する・申し込む。流れの分断を確認します。</p></article>
-        <article><span>05</span><h3>提案</h3><p>相手が納得し、自分の意思で選べる提案かを確認します。</p></article>
-      </div>
-      <div class="mid-cta">
-        <div><strong><span class="cta-line">一人で考え続ける時間を、</span><span class="cta-line">次の一歩を決める<span class="no-break">90分へ。</span></span></strong><span>Zoom・1対1／5,000円（税込）</span></div>
-        <a class="cta-button js-checkout" data-location="diagnosis" href="https://page.theapps.jp/charge/join/U8hv3G40M25k52f9">
-          <span>売上構造診断に申し込む</span><b aria-hidden="true">→</b>
-        </a>
-      </div>
-    </section>
-
-    <section class="section session-process-section">
-      <div class="section-title">
-        <p>90 MINUTES</p>
-        <h2><span class="heading-line">話して終わる相談ではなく、</span><span class="heading-line">次の判断を決める<span class="no-break">90分です。</span></span></h2>
-        <i aria-hidden="true"></i>
-      </div>
-      <div class="timeline">
-        <article><span>STEP 01</span><div><small>現在地を確認</small><h3>いま行っている活動を広げて見る</h3><p><span class="no-break">商品・発信・相談までを、</span>一つの流れとして確認します。話がまとまっていなくても、<span class="no-break">事前アンケートをもとに</span>一緒に整理します。</p></div></article>
-        <article><span>STEP 02</span><div><small>構造を可視化</small><h3>5つの要素を<span class="no-break">一枚の地図にする</span></h3><p>発信・商品・強み・導線・提案を別々に考えず、どのようにつながっているかを見ていきます。</p></div></article>
-        <article><span>STEP 03</span><div><small>原因を特定</small><h3>売上を止めているボトルネックを探す</h3><p>すべての課題を同じ重さで扱わず、全体への影響が大きい場所を絞ります。</p></div></article>
-        <article><span>STEP 04</span><div><small>順番を決定</small><h3><span class="no-break">次の90日で</span>取り組むことを決める</h3><p>今やること、後回しにすること、やらないことを分け、セッション後に迷わず動ける状態を目指します。</p></div></article>
-      </div>
-    </section>
-
-    <section class="outcomes-section">
-      <div class="outcomes-inner">
-        <div class="section-title light">
-          <p>AFTER THE SESSION</p>
-          <h2><span class="heading-line">セッション後に持ち帰れる、</span><span class="heading-line">4つの整理結果。</span></h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <ol>
-          <li><span>01</span><div><strong>売上が止まっている原因</strong><p>いま最も大きなボトルネックは何かを整理します。</p></div></li>
-          <li><span>02</span><div><strong>選ばれる強みの言語化ポイント</strong><p>発信や提案で伝えるべき経験・価値を見つけます。</p></div></li>
-          <li><span>03</span><div><strong>商品と導線の改善ポイント</strong><p>お客様が迷わず次へ進むために必要なつながりを整理します。</p></div></li>
-          <li><span>04</span><div><strong><span class="no-break">次の90日で</span>取り組む順番</strong><p>やることを増やさず、優先順位を決めます。</p></div></li>
-        </ol>
-      </div>
-      <p class="outcomes-note">診断は売上や契約数を保証するものではありません。現在地を整理し、次の判断を明確にするためのセッションです。</p>
-    </section>
-
-    <section class="section fit-section">
-      <div class="section-title">
-        <p>IS THIS FOR YOU?</p>
-        <h2><span class="heading-line">この診断が向いている方と、</span><span class="heading-line">現時点では向いていない方。</span></h2>
-        <i aria-hidden="true"></i>
-      </div>
-      <div class="fit-grid">
-        <article class="fit-card recommended">
-          <span>RECOMMENDED</span>
-          <h3>このような方に向いています</h3>
-          <ul>
-            <li>コーチ、コンサルタント、講師などの<span class="no-break">無形サービス</span>を提供している</li>
-            <li>商品や発信はあるが、<span class="no-break">申込みへの流れに</span><span class="no-break">手応えがない</span></li>
-            <li>強み・入口商品・売上導線のどこから整えるか迷っている</li>
-            <li>新しい施策を増やす前に、現在地と優先順位を整理したい</li>
-            <li>一方的な正解ではなく、対話しながら事業を整理したい</li>
-          </ul>
-        </article>
-        <article class="fit-card">
-          <span>NOT SUITABLE</span>
-          <h3>現時点では向いていません</h3>
-          <ul>
-            <li>短期間での売上増加や、成果保証を求めている</li>
-            <li>状況を共有せず、完成した正解だけが欲しい</li>
-            <li>無形サービス以外の相談だけをしたい</li>
-            <li>改善には取り組まず、作業をすべて代行してほしい</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section cases-section" id="cases">
-      <div class="heading-row">
-        <div class="section-title">
-          <p>ANONYMOUS CASES</p>
-          <h2><span class="heading-line">整理する場所が見えると、</span><span class="heading-line">次に取る行動も変わります。</span></h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <p>個人が特定されないよう、確認できるセッション記録を匿名化・要約した事例です。</p>
-      </div>
-      <div class="case-grid long-cases">
-        <article class="case-card">
-          <header><span>CASE 01</span><strong>商品設計</strong></header>
-          <div class="case-before"><small>BEFORE</small><p><span class="case-line">完璧に準備してからと考え、</span><span class="case-line">商品化を先延ばしにしていました。</span></p></div>
-          <div class="case-middle"><small>ORGANIZED</small><p>入口商品と提供手順を整理。完成を待たず、小さく提供しながら改善する方針を決めました。</p></div>
-          <div class="case-after"><small>AFTER</small><p>提供までの迷いが減り、サービス開始直前まで進みました。</p></div>
-        </article>
-        <article class="case-card">
-          <header><span>CASE 02</span><strong>優先順位</strong></header>
-          <div class="case-before"><small>BEFORE</small><p><span class="case-line">複数の活動を同時に進め、</span><span class="case-line">判断のたびに迷っていました。</span></p></div>
-          <div class="case-middle"><small>ORGANIZED</small><p><span class="case-line">今やること、後回しにすること、</span><span class="case-line">やらないことに分けました。</span></p></div>
-          <div class="case-after"><small>AFTER</small><p>迷いが減り、いま力を注ぐ場所が明確になりました。</p></div>
-        </article>
-        <article class="case-card">
-          <header><span>CASE 03</span><strong>売上導線</strong></header>
-          <div class="case-before"><small>BEFORE</small><p><span class="case-line">講座や発信はあるものの、</span><span class="case-line">継続商品への流れが曖昧でした。</span></p></div>
-          <div class="case-middle"><small>ORGANIZED</small><p><span class="case-line">フロント講座、個別相談、継続商品。</span><span class="case-line">それぞれの役割と順番を整理しました。</span></p></div>
-          <div class="case-after"><small>AFTER</small><p><span class="case-line">継続商品への導線が整い、</span><span class="case-line">複数件の成約につながりました。</span><span class="case-line">外注化も始まりました。</span></p></div>
-        </article>
-      </div>
-      <p class="case-note">※記録内容を匿名化・要約した事例です。成果には個人差があり、売上や契約件数を保証するものではありません。</p>
-    </section>
-
-    <section class="voices-section">
-      <div class="voices-inner">
-        <div class="section-title light">
-          <p>CLIENT VOICES</p>
-          <h2><span class="heading-line">答えを増やすより、</span><span class="heading-line">判断できる状態をつくる。</span></h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <div class="voice-grid">
-          <blockquote><span>“</span><p>何を優先して、何をやらないかまで見えるようになりました。</p><cite>複数事業を持つ個人事業主</cite></blockquote>
-          <blockquote><span>“</span><p>完璧にしてからではなく、小さく提供して改善するイメージが持てました。</p><cite>無形サービス提供者</cite></blockquote>
-          <blockquote><span>“</span><p>一人で抱えていた判断を、構造として見られるようになりました。</p><cite>事業拡大を検討する経営者</cite></blockquote>
-        </div>
-        <p class="case-note light">※セッション記録を、意味を変えない範囲でLP用に匿名化・要約しています。</p>
-      </div>
-    </section>
-
-    <section class="section difference-section">
-      <div class="section-title">
-        <p>WHAT MAKES IT DIFFERENT</p>
-        <h2><span class="heading-line">正解を押しつけず、</span><span class="heading-line">今ある事業から答えを組み立てます。</span></h2>
-        <i aria-hidden="true"></i>
-      </div>
-      <div class="difference-grid">
-        <article><span>01</span><h3>一つの施策だけで判断しません</h3><p>SNS、商品、セールスを別々に評価せず、売上までの流れとして確認します。</p></article>
-        <article><span>02</span><h3><span class="no-break">努力を増やすことから</span>始めません</h3><p>新しい施策を足す前に、今ある経験や商品の活かし方を考えます。</p></article>
-        <article><span>03</span><h3>やらないことまで整理します</h3><p>すべてを同時に進めず、<span class="no-break">次の90日に</span>必要なことへ力を集中できる状態を目指します。</p></article>
-        <article><span>04</span><h3><span class="no-break">無理な売り込みを</span>前提にしません</h3><p>相手が理解し、納得し、<span class="no-break">自分の意思で決められる導線と提案を</span>大切にします。</p></article>
-      </div>
-      <div class="mid-cta simple-cta">
-        <div><strong><span class="cta-line">診断するのは、あなたの能力ではなく、</span><span class="cta-line">事業のつながりです。</span></strong><span>現在地がまとまっていなくてもご参加いただけます。</span></div>
-        <a class="cta-button js-checkout" data-location="difference" href="https://page.theapps.jp/charge/join/U8hv3G40M25k52f9">
-          <span>売上構造診断に申し込む</span><b aria-hidden="true">→</b>
-        </a>
-      </div>
-    </section>
-
-    <section class="profile-section">
-      <div class="profile-visual" aria-hidden="true"><span>SD</span><i></i><i></i><i></i></div>
-      <div class="profile-copy">
-        <div class="section-title light">
-          <p>PRODUCER</p>
-          <h2>売上構造クリエイター</h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <p class="profile-title">起業家の「努力を成果につなぐ流れ」を整理する専門家</p>
-        <p>コーチ、コンサルタント、講師、カウンセラーなど、無形サービスを提供する方を中心に支援しています。</p>
-        <p>商品・発信・導線・提案を、一つの流れにつなげます。</p>
-        <p>大切にしているのは、<span class="no-break">努力を増やすことではありません。</span>すでに持っている経験や価値を整理し、必要としている相手に届く構造へ整えることです。</p>
-        <p>診断セッションでも、一般的な成功法則をそのまま当てはめるのではなく、現在の商品、顧客、発信状況をもとに、無理なく取り組める順番を一緒に探します。</p>
-      </div>
-    </section>
-
-    <section class="section value-section">
-      <div class="value-intro">
-        <div class="section-title">
-          <p>WHY 90 MINUTES?</p>
-          <h2><span class="heading-line">迷い続ける時間を、</span><span class="heading-line">判断するための<span class="no-break">90分へ。</span></span></h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <div>
-          <p><span class="prose-line">一人で事業を考えていると、発信・商品・価格・導線が、</span><span class="prose-line">どれも同じ重要度に見えることがあります。</span></p>
-          <p><span class="prose-line">診断の価値は、情報を増やすことではありません。</span><span class="prose-line">いまある情報を、判断できる形に並べ直します。</span></p>
-          <p><span class="prose-line">セッションですべてが完成するわけではありません。</span><span class="prose-line">「次に何を考えるか」と迷わず、</span><span class="prose-line">取り組む順番が見える状態を目指します。</span></p>
-        </div>
-      </div>
-      <div class="offer-card" id="details">
-        <div class="offer-heading">
-          <span>ONLINE INDIVIDUAL SESSION</span>
-          <h2>売上構造診断セッション</h2>
-          <p>発信・商品・強み・導線・提案を<span class="no-break">一枚の地図に整理する</span>、1対1のオンライン診断です。</p>
-        </div>
-        <dl>
-          <div><dt>時間</dt><dd>90分</dd></div>
-          <div><dt>形式</dt><dd>Zoom・1対1</dd></div>
-          <div><dt>料金</dt><dd><strong>5,000円</strong>（税込）</dd></div>
-          <div><dt>決済</dt><dd>事前カード決済</dd></div>
-        </dl>
-        <div class="offer-action">
-          <a class="cta-button js-checkout" data-location="offer" href="https://page.theapps.jp/charge/join/U8hv3G40M25k52f9">
-            <span>売上構造診断に申し込む</span><b aria-hidden="true">→</b>
-          </a>
-          <p>決済後に、日程予約と<span class="no-break">事前アンケートへ</span>お進みください。</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section application-section">
-      <div class="heading-row">
-        <div class="section-title">
-          <p>HOW TO JOIN</p>
-          <h2>お申込みから診断当日までの流れ。</h2>
-          <i aria-hidden="true"></i>
-        </div>
-        <p>申込み前に、何が起きるかを確認してからお進みいただけます。</p>
-      </div>
-      <div class="steps">
-        <div><span>01</span><strong>カード決済</strong><p>申込ボタンから、<span class="no-break">5,000円（税込）</span>の事前決済を行います。</p></div>
-        <div><span>02</span><strong>日程を予約</strong><p><span class="step-line">決済後の案内ページで、</span><span class="step-line">都合のよい日時を選びます。</span></p></div>
-        <div><span>03</span><strong>事前アンケート</strong><p>現在の商品・発信・相談内容について回答します。</p></div>
-        <div><span>04</span><strong>Zoomで診断</strong><p>当日は現在地を整理し、<span class="no-break">次の90日</span>の優先順位を決めます。</p></div>
-      </div>
-      <div class="reassurance-grid">
-        <div><strong>準備がなくても大丈夫です</strong><p>商品や強みが言葉になっていない状態でも、話しながら一緒に整理します。</p></div>
-        <div><strong>強引な勧誘は行いません</strong><p>診断結果を踏まえ、より深い支援を希望される方にのみ詳細をご案内します。</p></div>
-        <div><strong><span class="reassurance-line">PC操作が苦手でも</span><span class="reassurance-line">参加できます</span></strong><p><span class="reassurance-line">Zoomのリンクをクリックするだけです。</span><span class="reassurance-line">操作に不安があれば、</span><span class="reassurance-line">事前にご相談ください。</span></p></div>
-      </div>
-    </section>
-
-    <section class="section faq-section">
-      <div class="section-title">
-        <p>FREQUENTLY ASKED QUESTIONS</p>
-        <h2>申込み前によくいただくご質問。</h2>
-        <i aria-hidden="true"></i>
-      </div>
-      <div class="faq-list">
-        <details><summary><span class="faq-number">Q01</span><span class="question-text">商品や強みが固まっていなくても大丈夫ですか？</span></summary><p>はい。固まっていない状態だからこそ、現在地を整理し、何から形にするかを一緒に決めます。うまく説明できるように準備しておく必要もありません。</p></details>
-        <details><summary><span class="faq-number">Q02</span><span class="question-text">売上がまだ少ない段階でも相談できますか？</span></summary><p>ご相談いただけます。売上の大きさだけで判断せず、現在の商品、発信、顧客との接点をもとに、これから整える順番を確認します。</p></details>
-        <details><summary><span class="faq-number">Q03</span><span class="question-text">相談内容が、まだまとまっていません。</span></summary><p><span class="no-break">事前アンケートと</span>当日の対話を通じて整理します。「何が問題か分からない」という状態も、そのままお聞かせください。</p></details>
-        <details><summary><span class="faq-number">Q04</span><span class="question-text">本命商品の売り込みはありますか？</span></summary><p>強引な勧誘は行いません。診断結果を踏まえ、より深い支援を希望される方にのみ詳細をご案内します。</p></details>
-        <details><summary><span class="faq-number">Q05</span><span class="question-text"><span class="no-break">90分で</span>事業全体が完成しますか？</span></summary><p>事業全体を完成させるセッションではありません。現状を整理し、売上を止めている可能性が高い場所と、<span class="no-break">次の90日で</span>取り組む順番を明確にすることが目的です。</p></details>
-        <details><summary><span class="faq-number">Q06</span><span class="question-text">事前に用意するものはありますか？</span></summary><p>申込み後の<span class="no-break">事前アンケートに</span>、現在の商品や発信状況をご記入ください。ウェブサイトやSNSなど、確認してほしいページがあればURLもご共有ください。</p></details>
-        <details><summary><span class="faq-number">Q07</span><span class="question-text">パソコンに詳しくなくても参加できますか？</span></summary><p>Zoomのリンクをクリックするだけで参加できます。操作に不安がある場合は事前にご相談ください。</p></details>
-        <details><summary><span class="faq-number">Q08</span><span class="question-text">日程変更はできますか？</span></summary><p>予約完了メールの変更リンクから、前日まで日程を変更できます。当日の体調不良などは個別にご相談ください。</p></details>
-      </div>
-    </section>
-
-    <section class="decision-section">
-      <div class="decision-inner">
-        <p class="eyebrow">ONE LAST THOUGHT</p>
-        <h2><span class="heading-line">すべてを変える前に、</span><span class="heading-line">どこから変えるかを決める。</span></h2>
-        <div class="decision-copy">
-          <p><span class="prose-line">売上が安定しないと、目についた施策を一つずつ試したくなります。</span><span class="prose-line">けれど、原因が見えないまま努力を増やすと、時間も判断力も分散します。</span></p>
-          <p><span class="prose-line">いま必要なのは、完璧な計画ではないかもしれません。</span><span class="prose-line">発信・商品・強み・導線・提案を広げて見て、次に進む順番を決めることです。</span></p>
-          <p><span class="prose-line">この<span class="no-break">90分</span>を、これまでの努力を否定する時間ではなく、</span><span class="prose-line">活かし方を見つける時間にしたいと考えています。</span></p>
-        </div>
-      </div>
-    </section>
-
-    <section class="final-cta">
-      <div class="final-network" aria-hidden="true"></div>
-      <div>
-        <p class="final-en">START YOUR NEXT 90 DAYS</p>
-        <h2><span>努力を増やす前に、</span><strong>売上の流れを整理しませんか？</strong></h2>
-        <p>今のモヤモヤを、<span class="no-break">次の90日で</span>動ける優先順位へ変える<span class="no-break">90分です。</span></p>
-        <div class="price"><strong>5,000</strong><span>円（税込）<br>オンライン90分・1対1</span></div>
-        <a class="cta-button js-checkout" data-location="final" href="https://page.theapps.jp/charge/join/U8hv3G40M25k52f9">
-          <span>売上構造診断に申し込む</span><b aria-hidden="true">→</b>
-        </a>
-        <small>ボタンを押すと事前決済ページへ進みます。決済後、日程予約と<span class="no-break">事前アンケートを</span>ご案内します。</small>
-        <p class="result-disclaimer">本セッションは売上・成約数・その他の成果を保証するものではありません。</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <a class="brand footer-brand" href="#top">
-      <span class="brand-symbol">SD</span>
-      <span class="brand-copy"><strong>STRUCTURE</strong><small>DIAGNOSIS</small></span>
-    </a>
-    <div class="footer-copy"><p>売上構造診断セッション</p><p>販売条件・キャンセル規定は、申込み前に決済ページの記載をご確認ください。</p></div>
-    <p>© 2026 砂川事務所</p>
-  </footer>
-
-  <div class="mobile-sticky" aria-label="スマートフォン用申込ボタン">
-    <div><strong>5,000円</strong><span>90分・税込</span></div>
-    <a class="cta-button compact js-checkout" data-location="mobile_sticky" href="https://page.theapps.jp/charge/join/U8hv3G40M25k52f9">
-      <span>診断に申し込む</span><b aria-hidden="true">→</b>
-    </a>
+<header class="site-head">
+  <div class="in">
+    <p class="logo">売上構造プロデュース<small>体験セッション｜オンライン・1対1</small></p>
+    <a class="cta head-cta" href="./apply/">無料の60分体験に申し込む<span class="arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span></a>
   </div>
+</header>
+
+
+<section class="hero" style="padding:0" aria-labelledby="hero-h">
+  <div class="hero-visual">
+
+    <img class="hv-bg" src="assets/trial/photo-b783ce319e2b.jpg" alt="" width="1000" height="563" fetchpriority="high">
+    <p class="badge" aria-hidden="true"><b>無料</b><small>1対1・60分<br>Zoom</small></p>
+    <div class="smap" role="img" aria-label="売上構造マップ。見つける（発信）、興味を持つ（プロフィール）、相談する（個別相談）、選ぶ（申込み）の4段階を1本の流れにつなぎ、申込みまで右肩上がりにつながる様子を示した図">
+      <div class="smap-head"><p class="smap-ttl">売上構造マップ</p><p class="smap-sub">お客様が申し込むまでの道筋を、1枚に</p></div>
+      <svg class="smap-svg" viewBox="0 0 520 320" aria-hidden="true">
+        <defs>
+          <linearGradient id="sm-line" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7FD3FF"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient>
+          <linearGradient id="sm-area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".30"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+          <filter id="sm-glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <g stroke="rgba(255,255,255,.13)" stroke-width="1"><line x1="20" y1="40" x2="500" y2="40"/><line x1="20" y1="100" x2="500" y2="100"/><line x1="20" y1="160" x2="500" y2="160"/><line x1="20" y1="220" x2="500" y2="220"/></g>
+        <line x1="20" y1="252" x2="500" y2="252" stroke="rgba(255,255,255,.4)" stroke-width="1"/>
+        <path d="M75 215 C125 200 150 180 195 170 S275 128 320 115 S405 70 445 55 L445 252 L75 252 Z" fill="url(#sm-area)"/>
+        <path d="M75 215 C125 200 150 180 195 170 S275 128 320 115 S405 70 445 55" fill="none" stroke="url(#sm-line)" stroke-width="4" stroke-linecap="round" filter="url(#sm-glow)"/>
+      <line x1="75" y1="246" x2="75" y2="252" stroke="rgba(255,255,255,.38)" stroke-width="1" stroke-dasharray="3 4"/>
+      <circle cx="75" cy="215" r="31" fill="none" stroke="rgba(146,216,241,.55)" stroke-width="1"/>
+      <circle cx="75" cy="215" r="24" fill="rgba(255,255,255,.16)" stroke="#FFFFFF" stroke-width="1.5"/>
+      <use href="#i-search" x="63" y="203" width="24" height="24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="75" y="282" text-anchor="middle" font-size="17" font-weight="700">見つける</text>
+      <text x="75" y="305" text-anchor="middle" font-size="14" opacity=".85">発信</text>
+      <line x1="195" y1="201" x2="195" y2="252" stroke="rgba(255,255,255,.38)" stroke-width="1" stroke-dasharray="3 4"/>
+      <circle cx="195" cy="170" r="31" fill="none" stroke="rgba(146,216,241,.55)" stroke-width="1"/>
+      <circle cx="195" cy="170" r="24" fill="rgba(255,255,255,.16)" stroke="#FFFFFF" stroke-width="1.5"/>
+      <use href="#i-heart" x="183" y="158" width="24" height="24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="195" y="282" text-anchor="middle" font-size="17" font-weight="700">興味を持つ</text>
+      <text x="195" y="305" text-anchor="middle" font-size="14" opacity=".85">プロフィール</text>
+      <line x1="320" y1="146" x2="320" y2="252" stroke="rgba(255,255,255,.38)" stroke-width="1" stroke-dasharray="3 4"/>
+      <circle cx="320" cy="115" r="31" fill="none" stroke="rgba(146,216,241,.55)" stroke-width="1"/>
+      <circle cx="320" cy="115" r="24" fill="rgba(255,255,255,.16)" stroke="#FFFFFF" stroke-width="1.5"/>
+      <use href="#i-chat" x="308" y="103" width="24" height="24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="320" y="282" text-anchor="middle" font-size="17" font-weight="700">相談する</text>
+      <text x="320" y="305" text-anchor="middle" font-size="14" opacity=".85">個別相談</text>
+      <line x1="445" y1="86" x2="445" y2="252" stroke="rgba(255,255,255,.38)" stroke-width="1" stroke-dasharray="3 4"/>
+      <circle cx="445" cy="55" r="31" fill="none" stroke="rgba(146,216,241,.55)" stroke-width="1"/>
+      <circle cx="445" cy="55" r="24" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+      <use href="#i-check" x="433" y="43" width="24" height="24" fill="none" stroke="#0868C2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="445" y="282" text-anchor="middle" font-size="17" font-weight="700">選ぶ</text>
+      <text x="445" y="305" text-anchor="middle" font-size="14" opacity=".85">申込み</text>
+      </svg>
+      <p class="smap-foot">発信・プロフィール・相談・申込みを、1本の流れにつなぎます</p>
+    </div>
+  </div>
+  <div class="hero-body">
+    <div class="hero-copy">
+      <p class="eyebrow">コーチ・カウンセラー・セラピスト・講師の方へ</p>
+      <p class="pre"><span class="ph">毎日投稿しているのに、</span><span class="ph">相談の申込みが来ない。</span></p>
+      <h1 id="hero-h"><span class="ph">今ある投稿と商品で、</span><span class="ph"><em>相談が申し込まれる</em></span><span class="ph"><em>道筋</em>を60分で作る。</span></h1>
+      <p class="sub"><span class="ph">投稿から申込みまでの流れを、</span><span class="ph">あなた専用のシート1枚に</span><span class="ph">一緒に書きます。</span></p>
+      <div class="hero-cta">
+        <a class="cta" id="hero-cta" href="./apply/">無料の60分体験に申し込む<span class="arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span></a>
+        <p class="cta-meta"><svg class="ico" aria-hidden="true"><use href="#i-cal"/></svg>お申し込み後に、日程予約と事前アンケートへ進みます</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust-band">
+  <ul class="trust">
+    <li><span class="chk" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span>事前アンケートをもとに、当日のお話を進めます</li>
+    <li><span class="chk" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span>作ったシートは、あとでお渡しします</li>
+  </ul>
+</div>
+
+<main>
+
+
+<section class="bg-soft" aria-labelledby="open-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">よく聞く言葉</p>
+      <h2 id="open-h"><span class="ph">相談の中で、</span><span class="ph">何度も聞いてきた言葉です</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <p class="lead c">コーチ、カウンセラー、セラピスト、講師の方と1対1で話していると、仕事の内容も経歴もちがうのに、同じ言葉を何度も聞きます。</p>
+    <div class="bubbles" role="list" aria-label="相談の中でよく聞く言葉">
+      <p class="bubble" role="listitem">毎日投稿しているのに、問い合わせが来ないんです</p>
+      <p class="bubble" role="listitem">いいねはつくのに、申し込みまで進まなくて</p>
+      <p class="bubble" role="listitem">無料で話しているうちに、有料の話ができなくなってしまう</p>
+      <p class="bubble" role="listitem">何をしている人なのか分かりにくい、と言われたことがあります</p>
+      <p class="bubble" role="listitem">やることがありすぎて、何から手をつければいいのか</p>
+      <p class="bubble" role="listitem">講座にたくさんお金を使ったのに、売上につながっていない</p>
+      <p class="bubble" role="listitem">来ない理由が、自分では分からないんです</p>
+    </div>
+    <p class="fine voice-note">相談の中でよく聞く言葉を、個人が特定されないようにまとめています。</p>
+    <p class="callout"><span class="ph">どれか一つでも</span><span class="ph">「私のことだ」と</span><span class="ph">思ったなら、</span><span class="ph">今の発信や商品を</span><span class="ph">一緒に見直してみませんか。</span></p>
+  </div>
+</section>
+
+
+<section aria-labelledby="pain-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">5つの悩み</p>
+      <h2 id="pain-h"><span class="ph">「がんばっているのに」</span><span class="ph">そのとき、起きていること</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <div class="pains">
+      <article class="pain">
+        <figure class="pic">
+          <img src="assets/trial/photo-0a754fae1270.jpg" alt="白い机でスマートフォンを手に持つ手元（イメージ）" width="960" height="640" loading="lazy">
+          <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-phone"/></svg></span>
+        </figure>
+        <div class="body">
+          <p class="num">01</p>
+          <h3><span class="ph">毎日投稿しているのに、</span><span class="ph">問い合わせが来ない</span></h3>
+          <p class="scene">朝、スマホで投稿を仕上げる。夜、通知を開くと、いいねはいくつかついている。でも、DMもLINEの登録も、今日もゼロ。「投稿の数が足りないのかな」と思って、また明日も投稿する。</p>
+          <p class="real-tag">実際に起きていること</p>
+          <p>問い合わせが来ない理由は、1つではありません。投稿を読んだ人が「自分のことだ」と感じていないのか。感じていても、次に何をすればいいかが見つからないのか。どこで止まっているかで、やることは変わります。</p>
+          <p><span class="mark">どこで迷われているかが分からないまま投稿を増やしても、申込みにつながるとは限りません。</span></p>
+        </div>
+      </article>
+
+      <article class="pain">
+        <figure class="pic">
+          <img src="assets/trial/photo-2f2f87892a05.jpg" alt="ノートパソコンの画面越しにオンラインで話す様子（イメージ）" width="960" height="540" loading="lazy" style="object-position:88% 40%">
+          <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-chat"/></svg></span>
+        </figure>
+        <div class="body">
+          <p class="num">02</p>
+          <h3><span class="ph">「ここから先は有料です」が</span><span class="ph">言えない</span></h3>
+          <p class="scene">無料相談で1時間話す。相手はとても喜んでくれて、「すっきりしました、ありがとうございました」と言ってくれる。その言葉を聞いた瞬間、有料のサポートの話ができなくなる。売り込みだと思われたくない。そうやって、無料のまま終わった相談がいくつもある。</p>
+          <p class="real-tag">実際に起きていること</p>
+          <p>話し方の問題に見えますが、相談で一緒に整理することと、継続して取り組むことの役割が、曖昧なままだと、どのタイミングで案内するか迷います。相手がどこまで自分で進めたいかを聞いて、支援が役立ちそうなときに案内できるよう、相談の進め方を一緒に考えます。</p>
+        </div>
+      </article>
+
+      <article class="pain">
+        <figure class="pic">
+          <img src="assets/trial/photo-e0a46a82455b.jpg" alt="白い机でノートパソコンとノートに向かう手元（イメージ）" width="960" height="640" loading="lazy">
+          <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-user"/></svg></span>
+        </figure>
+        <div class="body">
+          <p class="num">03</p>
+          <h3><span class="ph">何をしている人なのか、</span><span class="ph">プロフィールを見ても</span><span class="ph">伝わらない</span></h3>
+          <p class="scene">プロフィールには資格も経歴も書いた。講座もたくさん受けてきた。なのに「結局、何をしてくれる人なの？」と聞かれる。自分でも、一言で説明しようとすると言葉に詰まる。</p>
+          <p class="real-tag">実際に起きていること</p>
+          <p>「誰の、どんな悩みを、どう支える人か」が一文になっていないことがあります。資格の名前や手法の名前は、まだあなたを知らない人には届きにくいものです。これまでやってきたことを、相手の悩みの言葉に置き換えるところから始めます。</p>
+        </div>
+      </article>
+
+      <article class="pain">
+        <figure class="pic">
+          <img src="assets/trial/photo-8af9f99e2a46.jpg" alt="ノートパソコンの横に「TO DO」の付箋が貼られた白い机（イメージ）" width="960" height="640" loading="lazy" style="object-position:55% 50%">
+          <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span>
+        </figure>
+        <div class="body">
+          <p class="num">04</p>
+          <h3><span class="ph">やることが多すぎて、</span><span class="ph">何から手をつけるか</span><span class="ph">分からない</span></h3>
+          <p class="scene">フィード投稿、ストーリーズ、リール、LINEの配信、ブログ、講座づくり、モニター募集。本業や家のこともある。「全部やらなきゃ」と思うほど、どれも中途半端になっていく。</p>
+          <p class="real-tag">実際に起きていること</p>
+          <p>どれが一番効くのかが見えていないと、全部やろうとしてしまいます。全体のつながりを見ると、「今は増やさなくていいこと」も決めやすくなります。</p>
+        </div>
+      </article>
+
+      <article class="pain">
+        <figure class="pic">
+          <img src="assets/trial/photo-9ac18d1ebfda.jpg" alt="重ねたノートとコーヒー、ペンが並ぶ白い机（イメージ）" width="960" height="641" loading="lazy" style="object-position:30% 50%">
+          <span class="icon" aria-hidden="true"><svg class="ico"><use href="#i-book"/></svg></span>
+        </figure>
+        <div class="body">
+          <p class="num">05</p>
+          <h3><span class="ph">講座でたくさん学んだのに、</span><span class="ph">売上につながっていない</span></h3>
+          <p class="scene">集客講座、SNS講座、セールス講座。ノートは何冊にもなった。「次の講座こそ」と思って申し込んだこともある。でも、売上は大きく変わっていない。気づけば、学ぶためにお金を払い続けている。</p>
+          <p class="real-tag">実際に起きていること</p>
+          <p>学んだ方法が間違っていたとは限りません。今止まっている場所と、学んだ方法を使っている場所がずれていると、結果に届きにくくなります。必要なのは、今ある学びを、今の事業に合う順番で使うことです。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<div class="band">
+  <img src="assets/trial/photo-cda9c686dde8.jpg" alt="" width="1800" height="1000" loading="lazy">
+  <div>
+    <h2 id="self-h" style="position:relative;z-index:1"><span class="ph">人には</span><span class="ph">アドバイスできるのに、</span><span class="ph">自分のことになると</span><span class="ph">見えない</span></h2>
+    <span class="line" aria-hidden="true"></span>
+  </div>
+</div>
+<section aria-labelledby="self-h" style="padding-top:56px">
+  <div class="narrow stack">
+    <p class="pull"><span class="ph">「人にはアドバイスできるのに、</span><span class="ph">自分のことになると、</span><span class="ph">全然うまくいかないんです」</span></p>
+    <p>これは、能力の問題ではありません。毎日その中にいると、自分の投稿や商品を、初めて見るお客様の目で見ることが難しくなります。</p>
+    <p>あなたがクライアントの悩みを外から見て整理できるように、あなたの事業も、一緒に見直すと、投稿を読んだ人がどこで迷うのか、サービスの説明で何を補うとよいかが見えてきます。</p>
+  </div>
+</section>
+
+
+
+<section class="bg-soft" aria-labelledby="what-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">60分の体験で一緒にやること</p>
+      <h2 id="what-h"><span class="ph">60分で、今ある活動を</span><span class="ph">1枚のシートにします</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <p class="lead c" style="margin-bottom:32px">普段の投稿やサービスのご案内を見ながら、どんな方に届けたいか、その方がどうやって相談を申し込めるかを一緒に考えます。</p>
+    <div class="route-panel lg" role="group" aria-label="お客様がサービスを選ぶまでの4つの段階">
+      <p class="ttl">お客様がサービスを選ぶまでの4つの段階</p>
+      <ol class="route">
+        <li><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>見つける</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-heart"/></svg>興味を持つ</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg>相談する</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>選ぶ</li>
+      </ol>
+    </div>
+    <p class="fine cap">お客様がサービスを選ぶまでの4つの段階を、1枚に並べます。</p>
+    <div class="feat">
+      <div class="card">
+        <span class="circle-ico" aria-hidden="true"><svg class="ico"><use href="#i-target"/></svg></span>
+        <span class="chip">誰に</span>
+        <h3><span class="ph">お客様と、</span><span class="ph">届ける変化を</span><span class="ph">言葉にする</span></h3>
+        <p>どんな方が、どんなときにあなたのサービスを必要とするのか。普段のお客様とのやり取りを思い出しながら、伝わる言葉を探します。</p>
+      </div>
+      <div class="card">
+        <span class="circle-ico" aria-hidden="true"><svg class="ico"><use href="#i-route"/></svg></span>
+        <span class="chip">道筋</span>
+        <h3><span class="ph">発信・商品・</span><span class="ph">相談をつなぐ</span></h3>
+        <p>投稿を見た方が、どこでサービスを知り、どこから相談できるかを確認します。気になったところは、あとで確かめられるようにメモします。</p>
+      </div>
+      <div class="card">
+        <span class="circle-ico" aria-hidden="true"><svg class="ico"><use href="#i-flag"/></svg></span>
+        <span class="chip">一手</span>
+        <h3><span class="ph">まず試す</span><span class="ph">行動を選ぶ</span></h3>
+        <p>プロフィールに案内先を載せる、投稿でサービスの内容を伝えるなど、まず試せることを一つ決めます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section aria-labelledby="sheet-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">持ち帰る一枚のイメージ</p>
+      <h2 id="sheet-h"><span class="ph">持ち帰るシートは、</span><span class="ph">こんな1枚です</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <p class="lead c" style="margin-bottom:32px">たとえば、働く女性の生活を支えるコーチなら、シートには次のように書き始められます。</p>
+    <div class="sheet-ui">
+      <p class="bar"><svg class="ico" aria-hidden="true"><use href="#i-sheet"/></svg>売上の骨格シート</p>
+      <dl>
+        <div class="row"><dt>届けたい相手</dt><dd>家族や仕事を優先し、自分の時間を取れずにいる人</dd></div>
+        <div class="row"><dt>届けたい変化</dt><dd>自分が大切にしたいことを言葉にし、今週の予定を一つ選び直せる</dd></div>
+        <div class="row"><dt>最初のサービス</dt><dd>現在の時間の使い方を一緒に見直す個別セッション</dd></div>
+        <div class="row"><dt>発信の役割</dt><dd>「頑張っているのに余裕がない」という日常の場面から、自分の課題だと気づいてもらう</dd></div>
+        <div class="row"><dt>申込みまで</dt><dd>投稿→プロフィール→セッションの説明→予約</dd></div>
+        <div class="row"><dt>まだ確かめたいこと</dt><dd>読者が何にいちばん困っているか。セッションの説明だけで内容が伝わるか</dd></div>
+        <div class="row"><dt>最初に試す一手</dt><dd>プロフィールに「誰に何を届けるか」と、セッションの案内先を明記する</dd></div>
+      </dl>
+    </div>
+    <p class="fine cap">※実際のお客様の事例ではなく、架空の記入イメージです。</p>
+    <p class="lead c" style="margin-top:24px">まだ答えが出ていないことも書き留めておくと、あとで投稿やサービスの案内を見直すときに役立ちます。</p>
+  </div>
+</section>
+
+
+<section class="bg-soft" aria-labelledby="take-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">60分のあとに</p>
+      <h2 id="take-h"><span class="ph">60分のあとに、</span><span class="ph">手元に残るもの</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <div class="take">
+      <div class="card"><div class="top"><span class="n">01</span><svg class="ico" aria-hidden="true"><use href="#i-pen"/></svg></div><h3><span class="ph">誰に、何を</span><span class="ph">届けるかの一文</span></h3><p>今の経験やサービスを、お客様の目線で説明するための仮の一文。</p></div>
+      <div class="card"><div class="top"><span class="n">02</span><svg class="ico" aria-hidden="true"><use href="#i-sheet"/></svg></div><h3><span class="ph">売上の骨格シート</span></h3><p>発信・商品・相談・提案を、お客様がたどる順番に並べた一枚。</p></div>
+      <div class="card"><div class="top"><span class="n">03</span><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg></div><h3><span class="ph">まだ確かめたいこと</span></h3><p>お客様の反応を見ながら、これから確かめたいこと。</p></div>
+      <div class="card"><div class="top"><span class="n">04</span><svg class="ico" aria-hidden="true"><use href="#i-flag"/></svg></div><h3><span class="ph">まず試す行動</span></h3><p>投稿や案内ページ、相談の進め方のうち、最初に試すこと。</p></div>
+    </div>
+    <div class="uses-box">
+      <h3><span class="ph">シートは、こんなときに</span><span class="ph">見返せます</span></h3>
+      <ul class="uses">
+        <li><span class="chk2" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span><div><b>プロフィールを書くとき</b><span>「どんな方の、どんな相談に乗れるのか」を書くヒントになります。</span></div></li>
+        <li><span class="chk2" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span><div><b>投稿を考えるとき</b><span>届けたい相手が、相談の前に知りたいことを選べます。</span></div></li>
+        <li><span class="chk2" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span><div><b>商品を案内するとき</b><span>どんな人が、何のために使う商品なのかを見直せます。</span></div></li>
+        <li><span class="chk2" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span><div><b>相談のあとを考えるとき</b><span>お客様が望んでいることを振り返り、次にどんな支援を提案できるか考えられます。</span></div></li>
+      </ul>
+    </div>
+    <p class="fine cap" style="max-width:860px;margin-inline:auto">この60分は現状から作る最初の設計です。売上・申込数の増加や、一度ですべてが完成することを保証するものではありません。</p>
+  </div>
+</section>
+
+
+<section aria-labelledby="learn-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">今の事業を見直す</p>
+      <h2 id="learn-h"><span class="ph">今の投稿や商品を見ながら、</span><span class="ph">どこから見直すか決めます</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <p class="lead c" style="margin-bottom:32px">たとえば、投稿に反応があっても相談が来ないなら、プロフィールから申込み先がすぐ分かるかを見てみます。今の状況を見れば、どこから手をつけるかを決めやすくなります。</p>
+    <div class="vs">
+      <div class="them"><h3><span class="ph">当日、一緒に見るもの</span></h3><ul><li>普段の投稿やプロフィール</li><li>案内している商品やサービス</li><li>お客様が相談を申し込む方法</li></ul></div>
+      <div class="mid" aria-hidden="true"><span><svg class="ico"><use href="#i-arrow"/></svg></span></div>
+      <div class="us"><h3><span class="ph">この60分でやること</span></h3><ul><li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>お客様が投稿を見てから申し込むまでの流れを確認する</li><li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>伝わりにくいところや、申込みで迷いそうなところを見つける</li><li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>次に試すことを一つ決める</li></ul></div>
+    </div>
+    <div class="cta-wrap after-cta">
+      <a class="cta" href="./apply/">無料の60分体験に申し込む<span class="arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-soft" aria-labelledby="pro-h">
+  <div class="container">
+    <div class="pro">
+      <figure class="pro-photo" style="margin-block:0">
+
+        <img src="assets/trial/photo-15145b7e7d94.jpg" alt="明るい机でノートパソコンに向かう手元（イメージ）" width="800" height="1000" loading="lazy" style="object-position:32% 50%">
+      </figure>
+      <div class="pro-txt">
+        <p class="label">体験を担当するのは</p>
+        <h2 id="pro-h" class="name"><strong>売上構造クリエイター®</strong></h2>
+        <p class="catch"><span class="ph">個人で事業をされている方の</span><span class="ph">商品づくりと集客を支援しています</span></p>
+
+        <p>私自身、発信を続けても、個別相談の申込みが1件も来ない時期がありました。人前で話すことも、サービスを案内することも苦手でした。</p>
+        <p>私が見直したのは、投稿を読んだ方がどこから相談を申し込めるか、という点でした。申込みまでの流れを整えたあと、初めてのご契約が決まりました。</p>
+        <p>今は、コーチ、カウンセラー、セラピスト、講師の方と1対1で、商品をつくり、発信から相談・申込みまでの流れを整えるお手伝いをしています。</p>
+        <div class="worked">
+          <p class="worked-ttl"><strong>AIを、ふだんの仕事に取り入れるところまで</strong></p>
+          <p>継続サポートでは、AIの導入もお手伝いしています。たとえば、SNS投稿の下書きをつくる、ホームページづくりに活用する、よく使う営業トークをアプリにまとめる。今の仕事のどこにAIを使うと役立つかを一緒に考え、実際に使える形にします。</p>
+        </div>
+        <div class="worked">
+          <p class="worked-ttl">これまでご一緒してきた方の職種</p>
+          <ul class="chips">
+            <li>キャリアコンサルタント</li><li>施術系セラピスト</li><li>講座・コミュニティ主宰者</li><li>セラピスト</li><li>鑑定士・講師</li><li>対話イベント運営者</li><li>コーチ</li>
+          </ul>
+          <p class="fine">※このページの「お客様の声」に掲載している方の職種です。</p>
+        </div>
+        <p>体験では、普段のお客様や実際の投稿についてお聞きするところから始めます。今の状況を一緒に見ながら、何から取り組むとよさそうかを考えます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section aria-labelledby="proof-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">お客様の声</p>
+      <h2 id="proof-h"><span class="ph">サポートを受けた方に、</span><span class="ph">起きた変化</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <p class="lead c" style="margin-bottom:32px">職種も、始めたときの状況もちがう方たちです。ご本人の言葉と一緒に紹介します。</p>
+
+    <div class="feature">
+      <article class="fcase">
+        <p class="who">キャリアコンサルタント</p>
+        <p class="big"><span class="num">2</span><span class="unit">ヶ月</span><span class="cap2">新しいお客様との継続契約が決まるまで</span></p>
+        <h3><span class="ph">止まっていた新規の売上が、</span><span class="ph">2ヶ月で動き出した</span></h3>
+        <div class="fbody">
+        <dl class="ba">
+          <div><dt>BEFORE</dt><dd>商品はできていたが、2年近く、新規のお客様からの売上が止まっていた。</dd></div>
+          <div class="after"><dt>AFTER</dt><dd>申込から2ヶ月で、新しいお客様との継続契約が決まった。既存のお客様からの追加の申込も生まれた。</dd></div>
+        </dl>
+        <blockquote class="voice">「サポートを受けると決めてから、自分でもいろいろ動き出して、スタートダッシュがすごく良かったです。お願いして本当によかったと、今心から思っています」</blockquote>
+        </div>
+      </article>
+      <article class="fcase">
+        <p class="who">施術系セラピスト</p>
+        <p class="big"><span class="num">2</span><span class="unit">ヶ月</span><span class="cap2">新規のお客様が来店するまで</span></p>
+        <h3><span class="ph">月1件まで減っていた予約に、</span><span class="ph">新規のお客様</span></h3>
+        <div class="fbody">
+        <dl class="ba">
+          <div><dt>サポート前</dt><dd>本業の傍らサロンを続けて<br>いたものの、予約は月1件ほど。<br>新規のお客様を増やせずにいた。</dd></div>
+          <div class="after"><dt>サポート後</dt><dd>サポート開始から2ヶ月で<br>新規のお客様が来店し、<br>次回の来店のお約束にもつながった。<br>AIを活用した業務効率化や<br>ホームページづくり、<br>営業支援アプリなど、<br>できることが広がった。</dd></div>
+        </dl>
+
+        <blockquote class="voice"><span class="src">体験セッションでのご感想</span>「これも勉強しなきゃいけないのか、あれも勉強しなきゃいけないのかと思っていた部分が、ひとまとめにできる。そこは、ちょっと気持ちが楽になるなと思いました」</blockquote>
+        </div>
+      </article>
+      <article class="fcase">
+        <p class="who">講座・コミュニティ主宰者</p>
+        <p class="big"><span class="num">2</span><span class="unit">ヶ月</span><span class="cap2">自分のコミュニティを立ち上げるまで</span></p>
+        <h3><span class="ph">やりたいことが分からない状態から、</span><span class="ph">自分のコミュニティを</span><span class="ph">立ち上げるまでに</span></h3>
+        <div class="fbody">
+        <dl class="ba">
+          <div><dt>BEFORE</dt><dd>いくつものコミュニティに所属していたものの、自分が何をしたいのか、何から始めればよいのか分からず、行動できずにいた。人前に立つことが苦手で、SNS発信やAIの活用もできていなかった。</dd></div>
+          <div class="after"><dt>AFTER</dt><dd>2ヶ月のセッションを通じて、自分のやりたいことが少しずつ明確になり、コミュニティを立ち上げて人を集めるところまで実現。AIを活用しながらSNS発信も始め、仲間も少しずつ増えている。</dd></div>
+        </dl>
+        <blockquote class="voice">「セッションを進める中で自分のやりたいことがみつかり、行動できるようになりました。AIの使い方も丁寧に教えていただき、少しずつ発信できる自分になりました。セッションをお願いして良かったです！」</blockquote>
+        </div>
+      </article>
+    </div>
+
+    <div class="compact">
+      <article class="ccase">
+        <p class="who">セラピスト</p>
+        <h3><span class="ph">やりたいことが、</span><span class="ph">売上の見える形になった</span></h3>
+        <dl class="ba">
+          <div><dt>BEFORE</dt><dd>やりたいことはあるが、どう売上につなげるかが描けていなかった。</dd></div>
+          <div class="after"><dt>AFTER</dt><dd>やりたいことを軸にした、売上の見える形ができた。</dd></div>
+        </dl>
+        <blockquote class="voice">「この形があれば、私のやりたいことが叶うんだと思いました」</blockquote>
+      </article>
+      <article class="ccase">
+        <p class="who">鑑定士・講師</p>
+        <h3><span class="ph">申込先がなかったLINEから、</span><span class="ph">申し込める流れに</span></h3>
+        <dl class="ba">
+          <div><dt>BEFORE</dt><dd>高額の講座を出しても申込がなく、LINEには申込先もなかった。</dd></div>
+          <div class="after"><dt>AFTER</dt><dd>1ヶ月で、鑑定と講座それぞれの申込ページと、LINEから申し込める流れが形になった。</dd></div>
+        </dl>
+        <blockquote class="voice">「たたき台ができただけで、だいぶ自分の中が整理されました。申込までの流れづくりは、これで自分でもやれそうです」</blockquote>
+      </article>
+    </div>
+
+
+    <details class="more">
+      <summary>ほかの方の声を読む</summary>
+      <div class="compact">
+        <article class="ccase">
+          <p class="who">対話イベント運営者</p>
+          <h3><span class="ph">同じところを</span><span class="ph">ぐるぐるしていた毎日が、</span><span class="ph">動き出した</span></h3>
+          <dl class="ba">
+            <div><dt>BEFORE</dt><dd>同じところで考えが回り、なかなか動き出せなかった。</dd></div>
+            <div class="after"><dt>AFTER</dt><dd>自分から提案して動けるようになった。対話の場でも運営側に回っている。</dd></div>
+          </dl>
+          <blockquote class="voice">「このサポートを受けていなければ、まだ1年前のところをぐるぐるしていたと思います。話すようになってから、毎日が激変しています」</blockquote>
+        </article>
+        <article class="ccase">
+          <p class="who">コーチ</p>
+          <h3><span class="ph">中途半端だった活動が、</span><span class="ph">商品の形になった</span></h3>
+          <dl class="ba">
+            <div><dt>BEFORE</dt><dd>いろいろなことに手を出しては、どれも中途半端になっていた。自分の商品はまだなかった。</dd></div>
+            <div class="after"><dt>AFTER</dt><dd>入口から本命までの商品の形ができ、何から売り始めるかが決まった。</dd></div>
+          </dl>
+          <blockquote class="voice">「こうやって作れるんだ、というのが分かりました。自由でいいんだと分かって、そこはすごくよかったです」</blockquote>
+        </article>
+      </div>
+    </details>
+
+    <div class="notes">
+      <p class="fine">※売上構造プロデュースのサポートを受けた方の事例です。無料60分の体験だけで得られた結果ではありません。</p>
+      <p class="fine">※個人の感想です。成果を保証するものではありません。</p>
+    </div>
+    <div class="cta-wrap after-cta">
+      <a class="cta" href="./apply/">無料の60分体験に申し込む<span class="arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-soft" aria-labelledby="flow-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">お申し込みの流れ</p>
+      <h2 id="flow-h"><span class="ph">申し込んだあとは、</span><span class="ph">この3つだけです</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <figure class="sess-photo">
+
+      <img src="assets/trial/photo-b783ce319e2b.jpg" alt="ノートパソコンと資料を前に、2人で話し合う手元（イメージ）" width="1600" height="900" loading="lazy">
+    </figure>
+    <ol class="steps">
+      <li><span class="n" aria-hidden="true"><small>STEP</small><b>01</b></span><h3><span class="ph">フォームから申し込む</span></h3><p>ボタンを押すと、申込フォームが開きます。</p></li>
+      <li><span class="n" aria-hidden="true"><small>STEP</small><b>02</b></span><h3><span class="ph">日程を選び、</span><span class="ph">事前アンケートに答える</span></h3><p>ご都合のよい日時を選びます。アンケートは、今の商品・発信・相談したいことを、書ける範囲で教えてください。見てほしいSNSや案内ページのURLがあれば添えてください。</p></li>
+      <li><span class="n" aria-hidden="true"><small>STEP</small><b>03</b></span><h3><span class="ph">Zoomで60分、</span><span class="ph">一緒にシートを作る</span></h3><p>アンケートに書いていただいたことをもとに、お話を始めます。</p></li>
+    </ol>
+    <div class="day">
+      <h3><span class="ph">当日の60分の進み方</span></h3>
+      <ol class="flow4" aria-label="当日の60分の進み方">
+        <li><b>今の活動を整理する</b>どんなお客様に、何を、どう案内しているかを確認します。</li>
+        <li><b><span class="ph">相手がたどる</span><span class="ph">順番につなぐ</span></b>初めて知った人が、どこから相談できるかを見ます。</li>
+        <li><b><span class="ph">伝える言葉を</span><span class="ph">一緒に考える</span></b>「誰の、どんな変化を支えるか」を一文で書きます。</li>
+        <li><b><span class="ph">最初に</span><span class="ph">試すことを決める</span></b>次の投稿やサービスの案内で、試したいことを一つ選びます。</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+
+<section aria-labelledby="ask-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">よくいただく不安</p>
+      <h2 id="ask-h"><span class="ph">申し込む前に、</span><span class="ph">気になること</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <div class="qa">
+      <div class="q-card">
+        <h3><span class="qm" aria-hidden="true">Q</span><span><span class="ph">無料体験では、</span><span class="ph">どんなことをしますか？</span></span></h3>
+        <div class="a"><span class="am" aria-hidden="true">A</span><p>当日は、今の発信や商品、相談までの流れを一緒に見ながら、売上の流れを1枚のシートに整理し、最初に取り組むことを決めます。継続サポートがお役に立てそうな場合は、最後に有料サポートをご案内することがあります。</p></div>
+      </div>
+      <div class="q-card">
+        <h3><span class="qm" aria-hidden="true">Q</span><span><span class="ph">話すことが、</span><span class="ph">まとまっていなくても</span><span class="ph">大丈夫ですか？</span></span></h3>
+        <div class="a"><span class="am" aria-hidden="true">A</span><p>大丈夫です。事前アンケートは、書けるところだけで十分です。当日は私からも質問しますので、話しながら一緒に整理していきましょう。</p></div>
+      </div>
+      <div class="q-card">
+        <h3><span class="qm" aria-hidden="true">Q</span><span><span class="ph">自分の仕事や、</span><span class="ph">今の段階でも</span><span class="ph">対象になりますか？</span></span></h3>
+        <div class="a"><span class="am" aria-hidden="true">A</span>
+          <div class="fit">
+            <div><h4>こんな方と一緒に考えたいです</h4><ul>
+              <li>コーチ、カウンセラー、セラピスト、講師など、形のないサービスを提供している</li>
+              <li>商品や発信はあるのに、相談や申込みにつながる手応えがない</li>
+              <li>自分の強みやサービスの価値を、相手に伝わる言葉にしたい</li>
+              <li>SNS、講座、相談の役割を整理して、一本の道筋をつくりたい</li>
+              <li>今の事業に合う進め方を一緒に考えたい</li>
+            </ul></div>
+            <div class="no"><h4>内容が合わない場合があります</h4><ul>
+              <li>参加後すぐの売上増加や成果の保証を求めている</li>
+              <li>話し合いではなく、すべての制作・運用を代行してほしい</li>
+              <li>形のある商品の販売だけを相談したい</li>
+            </ul></div>
+          </div>
+        </div>
+      </div>
+      <div class="q-card">
+        <h3><span class="qm" aria-hidden="true">Q</span><span><span class="ph">60分で、</span><span class="ph">何か変わりますか？</span></span></h3>
+        <div class="a"><span class="am" aria-hidden="true">A</span><p>60分で、申込みまでの流れを整理して、まず何を見直すかを決めます。そのシートは、プロフィールや投稿、商品の案内を見直すときに使えます。</p></div>
+      </div>
+    </div>
+
+    <h3 class="faq-h"><span class="ph">よくいただく質問</span></h3>
+    <div class="faq">
+      <details><summary><span class="ph">商品や強みが、</span><span class="ph">まだ固まっていなくても</span><span class="ph">大丈夫ですか？</span></summary><p>はい。これまでの経験や、どんな方をサポートしたいかをお聞きして、サービスの方向性を一緒に考えます。</p></details>
+      <details><summary><span class="ph">SNSでほとんど</span><span class="ph">発信していなくても</span><span class="ph">参加できますか？</span></summary><p>参加できます。これまでお客様と出会った方法や、これから案内したいサービスから一緒に考えます。SNSを始めることを前提にはしません。</p></details>
+      <details><summary><span class="ph">売上がまだ少ない段階でも</span><span class="ph">大丈夫ですか？</span></summary><p>大丈夫です。これからどんな方に、どんなサービスを届けたいかをお聞かせください。</p></details>
+      <details><summary><span class="ph">他の講座で学んでいる途中でも</span><span class="ph">参加できますか？</span></summary><p>参加できます。今学んでいることを、普段の発信や商品づくりにどう生かせそうかも一緒に考えられます。</p></details>
+      <details><summary><span class="ph">事前に何を用意すれば</span><span class="ph">いいですか？</span></summary><p>今の商品やSNS、案内ページのURLがあれば事前アンケートで教えてください。まとまった資料がなくても大丈夫です。</p></details>
+      <details><summary><span class="ph">スマートフォンから</span><span class="ph">参加できますか？</span></summary><p>Zoomのリンクから参加できます。シートを一緒に見るため、可能であればパソコンをおすすめします。</p></details>
+      <details><summary><span class="ph">日程を変更できますか？</span></summary><p>変更できます。TimeRexから届く予約確認メール内の案内に沿って、日程変更・キャンセルをお手続きください。操作にお困りの場合は、このページのプライバシーポリシーに記載した問い合わせ窓口からご連絡ください。</p></details>
+    </div>
+  </div>
+</section>
+
+
+<section id="apply" class="apply" aria-labelledby="apply-h">
+  <div class="container">
+    <div class="sec-head">
+      <p class="label">お申し込み</p>
+      <h2 id="apply-h"><span class="ph">無料の60分体験に</span><span class="ph">申し込む</span></h2>
+      <span class="divider" aria-hidden="true"><i></i></span>
+    </div>
+    <div class="apply-card">
+      <div class="head2">
+        <p class="label">オンライン・1対1</p>
+        <p class="card-name"><span class="ph">売上構造プロデュース</span><span class="ph">体験セッション</span></p>
+      </div>
+      <p class="free">無料</p>
+      <dl class="spec">
+        <div><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg><dt>時間</dt><dd>60分</dd></div>
+        <div><svg class="ico" aria-hidden="true"><use href="#i-video"/></svg><dt>形式</dt><dd>Zoom・1対1</dd></div>
+        <div><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg><dt>対象</dt><dd>コーチ、カウンセラー、セラピスト、講師など、経験や技術をサービスとして届けている方</dd></div>
+        <div><svg class="ico" aria-hidden="true"><use href="#i-sheet"/></svg><dt>持ち帰るもの</dt><dd>売上の骨格シートと、最初に試す行動</dd></div>
+      </dl>
+      <div class="cta-wrap">
+        <a class="cta" id="apply-cta" href="./apply/">無料の60分体験に申し込む<span class="arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span></a>
+        <p class="cta-meta"><svg class="ico" aria-hidden="true"><use href="#i-cal"/></svg>お申し込み後に、日程予約と事前アンケートへ進みます</p>
+      </div>
+    </div>
+    <div class="assure">
+      <div><span class="chk2" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span><p><b>準備が整っていなくても大丈夫</b>今ある投稿や商品から話し始めます。</p></div>
+      <div><span class="chk2" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span><p><b>事前に目を通します</b>アンケートやURLを確認して、当日に臨みます。</p></div>
+    </div>
+
+    <div class="letter">
+      <p class="label" style="text-align:center">最後に</p>
+      <h3><span class="ph">どこから手をつけるか、</span><span class="ph">一緒に考えてみませんか</span></h3>
+      <p>発信を続けていても、どこを変えれば相談につながるのか、自分では分かりにくいことがあります。普段の投稿やサービスのご案内を一緒に見ながら、まず何を見直すか決めていきましょう。</p>
+      <p class="sign">売上構造クリエイター®</p>
+      <p class="ps">まだ考えがまとまっていなくても大丈夫です。事前アンケートは、今分かる範囲でお答えください。</p>
+      <p class="fine"><span class="ln"><span class="ph">この体験は売上・成約数・その他の成果を</span><span class="ph">保証するものではありません。</span></span><span class="ln"><span class="ph">状況に合う場合、</span><span class="ph">有料の継続サポートを</span><span class="ph">ご案内することがあります。</span><span class="ph">契約は任意です。</span></span></p>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer>
+  <p class="fname">売上構造プロデュース体験セッション</p>
+  <p><a href="./privacy/">プライバシーポリシー</a></p>
+  <p>© 2026 売上構造プロデュース</p>
+</footer>
+
+
+<div class="float" id="float">
+  <a class="cta" href="./apply/"><span class="t"><small>1対1・60分・オンライン</small>無料の60分体験に申し込む</span><span class="arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span></a>
+</div>
+
+<script src="assets/trial/display.js"></script>
+
+<script src="assets/trial/tracking-events.js"></script>
+
+<script src="assets/trial/referrals.js"></script>
 </body>
 </html>
